@@ -40,7 +40,7 @@
 	<div id="main-menu" class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
 		<a class="pure-menu-heading logo-link" href="/"><img src="https://googledrive.com/host/0B9LVk4xbDIJTQ2FMX0hWV0dPejg/icon_mdm-brazil.png" alt="MDM Brazil blue icon logo"/></a>
 
-		<ul>
+		<ul class="nav-header">
 			<!-- <li class="pure-menu-selected"><a href="/">Casa</a></li> -->
 			<li><a href="#">Tour</a></li>
 			<% for document in @getCollection('pages').toJSON(): %>
@@ -49,14 +49,14 @@
 				</li>
 			<% end %>
 		</ul>
-		<li class="we-bitcoin">
+		<span class="we-bitcoin">
 			<span class="accept-li">
 				<sub class="accept-b muted">We accept bitcoin.</sub>
 			</span>
 			<span class="bitcoin">
-				<%- @getBitcoinSvgBlock('bitcoin3','bIcon','bitcoin-icon') %>
+				<%- @partial('bitcoin-icon-3') %>
 			</span>
-		</li>
+		</span>
 	</div>
 </div>
 <div class="content pure-g-r">

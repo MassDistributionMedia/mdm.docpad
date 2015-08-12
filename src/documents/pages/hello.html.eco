@@ -4,7 +4,3 @@ layout: page
 tags: ['intro','page']
 pageOrder: 1
 ---
-
-<%- @getBitcoinSvgBlock('bflat','bIcon','bitcoin-icon') %>
-
-<%- @getBitcoinSvgBlock('lflat','bIcon','bitcoin-icon') %>
