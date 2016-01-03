@@ -12,29 +12,29 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://mdm.cc"
+			url: "https://mdm.cc"
 
 			# Here are some old site urls that you would like to redirect from
-			oldUrls: ['']
+			oldUrls: ['http://massdistributionmedia.com']
 
 			# The default title of our website
-			title: "Mass Distribution Media"
+			title: "Mass Distribution Media, Inc. "
 
 			# The website description (for SEO)
 			description: """
-				
+				New Age Web Platforms for Selected Clients. 
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				MDM, Mass Distribution Media, docpad 
+				MDM, Mass Distribution Media, docpad, custom websites for clients, East Coast
 				"""
 
 			# The website author's name
-			author: "Mass Distribution Media"
+			author: "Mass Distribution Media, Inc."
 
 			# The website author's email
-			email: "mike@mdm.cm"
+			email: "mikeumus@gmail.com"
 
 			# Styles
 			styles: [
