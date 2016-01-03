@@ -38,15 +38,16 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css"
-				"https://fonts.googleapis.com/css?family=Julius+Sans+One"
-				"https://fonts.googleapis.com/css?family=Open+Sans"
+				"//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css"
+				"//fonts.googleapis.com/css?family=Julius+Sans+One"
+				"//fonts.googleapis.com/css?family=Open+Sans"
 				"/styles/style.css"
 			]
 
 			# Scripts
 			scripts: [
 				"/scripts/script.js"
+				"//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
 			]
 
 
