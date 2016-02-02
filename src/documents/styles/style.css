@@ -11,7 +11,9 @@ a{
     margin: 74px auto auto 173px;
 }
     .main-menu-scrolled{
-        border-bottom: 7px solid #005EAC
+        border-bottom: 7px solid #005EAC !important;
+        margin-top: -90px;
+        height: 33px;
     }
 
 .muted{

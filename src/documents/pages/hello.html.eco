@@ -1,6 +1,8 @@
 ---
 title: This is a Page
-layout: page
+layout: blank
 tags: ['intro','page']
 pageOrder: 1
 ---
+
+<iframe src="http://demo.geekslabs.com/materialize/v2.1/layout01/index.html" width="100%" height="1800px" frameborder="0"></iframe>
