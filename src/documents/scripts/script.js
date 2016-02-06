@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(event){
 	// document.documentElementstyle.borderBottom = '7px solid #005EAC';
 	
 	window.onscroll = function(){
-		document.documentElement.scrollTop || document.body.scrollTop > 366 ?
+		document.documentElement.scrollTop || document.body.scrollTop > 13 ?
 			onScrolledTop()
 			: mainMenu.classList.remove("main-menu-scrolled");
 	};
