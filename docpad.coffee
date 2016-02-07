@@ -34,7 +34,7 @@ docpadConfig = {
 			author: "Mass Distribution Media, Inc."
 
 			# The website author's email
-			email: "mikeumus@gmail.com"
+			email: "mike@mdm.cc"
 
 			# Styles
 			styles: [
