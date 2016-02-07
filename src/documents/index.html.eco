@@ -17,11 +17,11 @@ id="star-icon" points="256,60.082 304.63,209.75 462,209.75 334.686,302.25 383.31
             <div class="pure-u-2-3">
                 <div class="pure-u-1-3 white-font slogan text-right">
                     <h2>New age web platforms for selected clients.</h2>
-                    <a id="appBtn" class="pure-button" href="http://betabulls.com/"><span id="appBtnIcon" class="splash-btn-icon"></span> <span id="appBtnText">Apps</span></a>
+                    <a id="appBtn" class="pure-button" href="#"><span id="appBtnIcon" class="splash-btn-icon"></span> <span id="appBtnText">Apps</span></a>
                     <a id="mblBtn" class="pure-button pure-button-primary" href="#"> <span id="mblBtnIcon" class="splash-btn-icon"></span> <span id="appMblText">Mobile</span> </a>
                 </div>
-                <svg class="hero-circle" height="444" width="452">
-                  <circle cx="313" cy="150" r="260" />
+                <svg class="hero-circle" height="696" width="666">
+                  <circle cx="509" cy="333" r="360" />
                 </svg>
             </div>
             <!-- <div class="pure-u-1">
@@ -31,94 +31,15 @@ id="star-icon" points="256,60.082 304.63,209.75 462,209.75 334.686,302.25 383.31
     </div>
 
     <div class="content pure-u-1">
-        <div class="pure-g-r content-ribbon pira-rib">
-            <div class="pure-u-2-3">
-                <h4 class="content-subhead docpad-subhead">
-                    <a href="http://docpad.org/" target="_blank">
-                        <%- @partial('docpad-logo-white') %>    
-                    </a>
-                <span> Partners </span>
-                </h4>
-                <div class="l-box pira-home-cap">
-                    <h3>A modern prototyping platform</h3>
-                    <p>
-                        DocPad, created by Bevry and open-source on GitHub, is a node.js powered web prototyping platform allowing for quick websites and web apps to be live in days instead of months. DocPad is flexible. Use PHP, Ruby or Node.
-                    </p>
-                </div>
-            </div>
-
-            <a href="http://docpad.org/" target="_blank">
-            <div class="pure-u-1-3">
-                <div class="l-box text-center">
-                    <%- @partial('docpad-keys') %>
-                </div>
-            </div>
-            </a>
-        </div>
-
         <div class="pure-g-r content-ribbon">
-            <a href="http://nodejs.org/" target="_blank">
-            <div class="pure-u-1-3 node-home-capsule">
-                <div class="l-box text-center">
-                    <img class="node-home-img" src="https://googledrive.com/host/0B9LVk4xbDIJTNzZkMDA2YjEtYzRmZC00Mjk0LTk4YzUtYzhlOTNhNTc1ZTdk/logo.png" alt="Node.js logo white">
-                </div>
-            </div>
-            </a>
-
-            <div class="pure-u-2-3 node-box">
-
-                <div class="l-box">
-                    <h3>Node.js Platform Specific</h3>
-                    <p>
-                        Why Node.js? It's JavaScript on the server running on Google's V8 engine. The same engine that makes Google Chrome the fastest browser around. But don't just take our word for it. Read about what industry leader Clock has to say about Node <a href="http://clock.co.uk/blog/why-would-you-choose-nodejs-over-other-available-platforms"> here</a>.
-                    </p>
-                </div>
-            </div>
+                
         </div>
-
-        <div class="pure-g-r four-boxes">
-            <div class="pure-u-1-4">
-                <div class="l-box">
-                    <h3>Código Web</h3>
-                    <p>
-                        Donec suscipit, risus vel venenatis ornare, nibh massa ultrices diam, a elementum metus felis sit amet eros. Phasellus pellentesque euismod massa sed pellentesque.
-                    </p>
-                </div>
-            </div>
-
-            <div class="pure-u-1-4">
-                <div class="l-box">
-                    <h3>Marca Digital</h3>
-                    <p>
-                        Donec suscipit, risus vel venenatis ornare, nibh massa ultrices diam, a elementum metus felis sit amet eros. Phasellus pellentesque euismod massa sed pellentesque.
-                    </p>
-                </div>
-            </div>
-
-            <div class="pure-u-1-4">
-                <div class="l-box">
-                    <h3>Aplicativos Web</h3>
-                    <p>
-                        Donec suscipit, risus vel venenatis ornare, nibh massa ultrices diam, a elementum metus felis sit amet eros. Phasellus pellentesque euismod massa sed pellentesque.
-                    </p>
-                </div>
-            </div>
-
-            <div class="pure-u-1-4">
-                <div class="l-box">
-                    <h3>Estratégia Web</h3>
-                    <p>
-                        Donec suscipit, risus vel venenatis ornare, nibh massa ultrices diam, a elementum metus felis sit amet eros. Phasellus pellentesque euismod massa sed pellentesque.
-                    </p>
-                </div>
-            </div>
-        </div>
-
+ 
         <div class="pure-g-r">
             <div class="pure-u-1">
                 <div class="l-box ribbon footer-ribbon">
-                    <h2>Começar agora.</h2>
-                    <a href="#" class="pure-button primary-button">Canta-se</a>
+                    <h2>Tech as a force of nature for good.</h2>
+                    <!--<a href="#" class="pure-button primary-button">Canta-se</a>-->
                 </div>
             </div>
         </div>

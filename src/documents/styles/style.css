@@ -19,15 +19,20 @@ body {
     overflow-x:hidden;
     line-height: 1.7em;
     font-family: 'Open Sans', sans-serif;
+    background:url(https://54417d96b6074577cf5a902e1a4e8f9399203b79.googledrive.com/host/0B9LVk4xbDIJTVDFvZWFwb1llRTQ);
 }
 a{
     text-decoration: none;
 }
+#Stage{
+    margin-top: -27px;
+}
 .nav-header{
+    transition: 0.333s;
     margin: 73px auto auto 173px;
 }
     .main-menu-scrolled{
-        background: #fff;
+        background: url(https://54417d96b6074577cf5a902e1a4e8f9399203b79.googledrive.com/host/0B9LVk4xbDIJTVDFvZWFwb1llRTQ) 0 97px;
         border-bottom: 7px solid #005EAC !important;
         height: 93px;
     }
@@ -43,11 +48,15 @@ a{
         }
         .main-menu-scrolled .we-bitcoin{
             top: 30px;
+            color: #fff;
+        }
+        .main-menu-scrolled .bitcoin-icon{
+            fill: #A3B7DE;
         }
     svg.hero-circle{
         position: absolute;
-        right: 74px;
-        top: 135px;
+        right: 0;
+        top: 0;
     }
     svg.hero-circle circle{
         fill: rgba(255, 255, 255, 0.21);
@@ -178,7 +187,7 @@ a{
     }
 
         .header .pure-menu a{
-            color: #8EA7BB;
+            color: #E7EFF5;
         }
 
         .header .pure-menu .pure-menu-selected a, .header .pure-menu a:hover{
@@ -186,13 +195,12 @@ a{
         }
 
         .header .pure-menu li{
-            border-radius: 3px;
-            border: 1px solid rgba(0, 94, 172, 0.07);
+            /*border-radius: 3px;*/
+            /*border: 1px solid rgba(0, 94, 172, 0.07);*/
             display: inline-block;
             padding: 13px 33px;
             float: left;
             margin: auto 3px auto;
-            background: #fff;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
         }
@@ -201,7 +209,7 @@ a{
         .header .pure-menu li:focus {
             /*background: none;*/
             color: #aaa;
-            border: 1px solid rgba(0, 94, 172, 1);
+            /*border: 1px solid rgba(0, 94, 172, 1);*/
         }
 
         .header .pure-menu li a:active{
@@ -216,10 +224,10 @@ body .primary-button {
 
 .splash {
     height: 251px;
-    padding: 3em 0.5em;
+    padding: 3em 0;
     border-radius: 13px;
     background: #005EAC url(https://3b1014479e60a166ba9ba71bdea37b36463bf4d9.googledrive.com/host/0B9LVk4xbDIJTZ0FUbXk0a1hjcHM) bottom no-repeat;
-    margin: 109px auto 77px;
+    margin: 109px auto 0;
 }
     .splash .splash-head {
         font-size: 300%;
@@ -251,16 +259,13 @@ body .primary-button {
 }
 .we-bitcoin{
     width:233px;
-    opacity: 0.555;
     cursor: pointer;
     text-align: right;
     border: none !important;
     position:fixed;
-    top: 39px;
+    top: 60px;
+    margin: auto auto auto 51px;
 }
-    .we-bitcoin:hover{
-        opacity: 1;
-    }
     .bitcoin{
         width: 45px;
         border: none !important;
@@ -272,11 +277,9 @@ body .primary-button {
             fill: #005EAC;
         }
 
-
 .content{
     max-width: 1080px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
     .content .content-subhead {
@@ -361,15 +364,18 @@ body .primary-button {
     }
 
     .footer-ribbon{
+        width: 88%;
+        margin: auto;
+        color: #005EAC;
         border-top-left-radius: 13px;
         border-top-right-radius: 13px;
+        background: #005EAC url(https://54417d96b6074577cf5a902e1a4e8f9399203b79.googledrive.com/host/0B9LVk4xbDIJTVDFvZWFwb1llRTQ) 0 -140px;
     }
 
 .footer {
     background: #005EAC;
     color: #fff;
     text-align: center;
-    padding: 1em;
     font-size: 80%;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;

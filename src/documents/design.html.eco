@@ -1,0 +1,12 @@
+---
+title: Design
+layout: default
+tags: ['design','page']
+pageOrder: 2
+---
+
+<style>
+    body{background: #3A7DD8;} /* #0752b8 */
+</style>
+
+<%- @partial('blue-shapes') %>

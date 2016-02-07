@@ -1,21 +1,20 @@
 {
-  "name": "mdm-brazil.docpad",
+  "name": "mdm.docpad",
   "version": "0.0.1",
-  "description": "Mass Distribution Media Brazil",
-  "homepage": "https://github.com/bevry/yui-purecss.docpad",
+  "description": "Mass Distribution Media",
+  "homepage": "https://github.com/bevry/mdm.docpad",
   "keywords": [
     "docpad",
     "website",
     "mdm",
-    "mdm-brazil",
-    "mass-distribution-media-brazil"
+    "mass-distribution-media"
   ],
-  "author": "Mass Distribution Media <mike@mdm.cm> (http://mdm.cm)",
+  "author": "Mass Distribution Media <mike@mdm.cc> (http://mdm.cc)",
   "maintainers": [
-    "Michael D Mooring <mike@mdm.cm> (https://github.com/mikeumus)"
+    "Michael D Mooring <mike@mdm.cc> (https://github.com/mikeumus)"
   ],
   "contributors": [
-    "Michael D Mooring <mike@mdm.cm> (https://github.com/mikeumus)"
+    "Michael D Mooring <mike@mdm.cc> (https://github.com/mikeumus)"
   ],
   "bugs": {
     "url": "https://github.com/MassDistributionMedia/yui-purecss.docpad/issues"
@@ -45,7 +44,6 @@
     "docpad-plugin-text": "~2.3.3"
   },
   "devDependencies": {
-    "docpad-plugin-livereload": "~2.6.1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
