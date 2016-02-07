@@ -7,6 +7,7 @@ pageOrder: 2
 
 <style>
     body{background: #3A7DD8;} /* #0752b8 */
+    .we-bitcoin{display:none;}
 </style>
 
 <%- @partial('blue-shapes') %>

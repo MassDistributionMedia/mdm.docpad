@@ -37,8 +37,8 @@ a{
         height: 93px;
     }
         .main-menu-scrolled ul.nav-header li{
-            border-bottom-left-radius: 3px;
-            border-bottom-right-radius: 3px;
+            /*border-bottom-left-radius: 3px;*/
+            /*border-bottom-right-radius: 3px;*/
         }
         .main-menu-scrolled .nav-header{
             margin: 14px auto auto 173px;
@@ -202,8 +202,8 @@ a{
             padding: 13px 33px;
             float: left;
             margin: auto 3px auto;
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
+            /*border-bottom-left-radius: 0;*/
+            /*border-bottom-right-radius: 0;*/
         }
 
         .header .pure-menu li:hover,
@@ -367,7 +367,7 @@ body .primary-button {
     .footer-ribbon{
         width: 88%;
         margin: auto;
-        color: #005EAC;
+        color: #fff; /* #005EAC */
         border-top-left-radius: 13px;
         border-top-right-radius: 13px;
         background: #005EAC url(https://54417d96b6074577cf5a902e1a4e8f9399203b79.googledrive.com/host/0B9LVk4xbDIJTVDFvZWFwb1llRTQ) 0 -140px;
@@ -380,4 +380,19 @@ body .primary-button {
     font-size: 80%;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
+}
+
+/* Portrait and Landscape */
+@media screen and (max-height: 640px) {
+        .logo-link{ margin: -3px 13px -22px 0px !important;}
+            .logo-link img{margin: 7px 0 0 0;}
+            .header .pure-menu li{padding: 3px 7px;}
+            .nav-header{margin: 73px auto auto 121px;}
+            .we-bitcoin{display:none;}
+            .main-menu-scrolled .logo-link {
+                margin: -10px 13px -22px 0px !important;
+            }
+            .main-menu-scrolled .nav-header {
+                margin: 25px auto auto 135px;
+            }
 }
