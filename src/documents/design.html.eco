@@ -8,6 +8,61 @@ pageOrder: 2
 <style>
     body{background: #3A7DD8;} /* #0752b8 */
     .we-bitcoin{display:none;}
+    .content{max-width: none;}
+    .footer{border-radius: 0;}
 </style>
 
 <%- @partial('blue-shapes') %>
+
+<div class="design-content pure-u-1">
+    <div class="pure-g-r">
+        <svg width="50%" height="666">
+          <rect width="100%" height="666" />
+        </svg>
+        <div class="pure-u-1-4">
+             <h1>
+                 Brand distinction 
+                 <br/>
+                 and consistency.
+            </h1>
+        </div>
+        <div class="pure-u-3-5">
+            <p>
+                Your brand is your first impression and visual interface to the world.
+                <br/>
+                It's your chance to become distinct from competitors and other choices. 
+                <br/>
+                Brand is something we have always been passionate about at MDM.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="creatives pure-u-1">
+    <div class="ryan pure-g-r">
+        <div class="pure-u-2-3">
+   <!--         
+            <svg width="700" height="660">
+              <defs>
+                <pattern id="image" x="0" y="0" patternUnits="userSpaceOnUse" height="1" width="1">
+                  <image x="0" y="0" xlink:href="url.png"></image>
+                </pattern>
+              </defs>
+              <circle id='top' cx="180" cy="120" r="80" fill="url(#image)"/>
+            </svg>
+            
+            -->
+            <svg height="666" width="100%">
+                <defs>
+                    <pattern id="image" x="0" y="0" patternUnits="userSpaceOnUse" height="100%" width="100%">
+                        <image width="100%" height="100%" x="0" y="0" xlink:href="https://c3125f8fd12857977050412ec30b373c34a64e93.googledrive.com/host/0B9LVk4xbDIJTY1ZFVWhMNkMxakk"></image>
+                    </pattern>
+                </defs>
+                <circle cx="39%" cy="50%" r="222" fill="url(#image)" />
+            </svg>
+            
+            
+            
+        </div>
+        <div class="pure-u-1-3"></div>
+    </div>
+</div>

@@ -311,63 +311,39 @@ body .primary-button {
     }
     .our-perspective{
         padding: 33px 111px;
-        background: rgb(0, 94, 172);
-        background: rgba(0, 94, 172, 0.55) !important;
+        background: transparent !important;
     }
-
-.pira-home-cap{
-    border-right: 2px solid rgb(0, 94, 172);
-    border-top-right-radius: 13px;
-    border-top: 2px solid rgb(0, 94, 172);
-    background: #fff;
-    border-bottom-left-radius: 25px;
-    box-shadow: 1px -1px rgba(0, 39, 71, 0.1);
-}
-
-.pira-rib{
-    background: #005EAC;
-}
-
-.pira-logo{
-    margin: 35px 0 0 13px;
-}
-
-.node-home-capsule{
-    height: 240px;
-    background: #005EAC;
-    margin: auto;
-    display: block;
-    float: left;
-    width: 327px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-}
-    .node-box{
-        height: 240px;
-        width: 707px;
-        background: #fff;
-        border-radius: 21px;
-        box-shadow: -4px 1px rgba(0, 39, 71, 0.1);
+    .design-content{
+        padding: 111px 33px;
     }
-    .node-home-img{
-        margin: 66px auto;
-    }
+        .design-content .pure-g-r{
+            position: relative;
+        }
+        .design-content .pure-u-1-4{
+            float: left;
+            text-align: center;
+            line-height: 33px;
+            display: inline-block;
+            margin: 3%;
+        }
+        .design-content .pure-u-3-5{
+            margin: 2.7% -3% auto auto;
+            text-align: right;
+            display: inline-block;
+            display: inline-block;
+        }
+        .design-content svg{
+            transform: rotate(39deg);
+            position: absolute;
+            z-index: -1;
+            top: -179px;
+            left: -253px;
+        }
+        .design-content svg rect{
+            fill: rgb(10, 5, 122);
+        }
 
-.docpad-logo{
-    width:14%;
-}
-    .docpad-logo-white{
-        height: 25px;
-        width: 115px;
-        margin: 0 0 -5px 0;
-    }
-    .docpad-subhead{
-       padding: 0.4em .8em 0.6em !important;
-    }
-    #stageTwo_docpad-key-bottom{
-        fill:#fff;
-    }
-
+        
 .ribbon {
     background: #eee;
     text-align: center;
