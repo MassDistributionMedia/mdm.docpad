@@ -1,12 +1,9 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
+# See DocPad Config docs at http://docpad.org/docs/config
 docpadConfig = {
 
-	environments:
-		static:
-			plugins:
-				cleanurls:
-					trailingSlashes: false
+
 
 	# =================================
 	# Template Data
@@ -95,11 +92,21 @@ docpadConfig = {
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
 
+
+	# =================================
+	# Plugin Configuration
+	
+	plugins:
+		cleanurls:
+			trailingSlashes: false
+
+
 	# =================================
 	# DocPad Events
 
 	# Here we can define handlers for events that DocPad fires
 	# You can find a full listing of events on the DocPad Wiki
+	
 	events:
 
 		# Server Extend
@@ -122,6 +129,7 @@ docpadConfig = {
 					res.redirect(newUrl+req.url, 301)
 				else
 					next()
+
 }
 
 
