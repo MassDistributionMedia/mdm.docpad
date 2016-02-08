@@ -2,6 +2,12 @@
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
 
+	environments:
+		static:
+			plugins:
+				cleanurls:
+					trailingSlashes: false
+
 	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates
@@ -41,6 +47,7 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css"
 				"//fonts.googleapis.com/css?family=Julius+Sans+One"
 				"//fonts.googleapis.com/css?family=Open+Sans"
+				"//fonts.googleapis.com/icon?family=Material+Icons"
 				"/styles/style.css"
 			]
 

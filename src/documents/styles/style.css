@@ -119,19 +119,22 @@ a{
 
 .slogan{
     width: 448px;
-    margin: auto;
+    margin: 47px auto auto auto;
     display: block;
     font-size: 25px;
     line-height: 38px;
 }
 
     .slogan .pure-button{
-        padding: .5em 2em;
+        border-radius: 13px;
+        margin: -129px 3px auto;
+        padding: .3em 1.4em .3em .7em;
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     }
 
     .slogan h2{
         font-weight: 200;
+        line-height: 53px;
         margin-bottom: 20px;
     }
 
@@ -148,25 +151,39 @@ a{
     clear: none;
     box-shadow: -1px -1px rgba(0,0,0,0.1);
 }
-
-#appBtnIcon{
-    background-size: 114%;
-    -webkit-background-size: 114%;
-    background-image: url(/icons/iconmonstr-window-apps-icon.svg);
+#appBtn{
+    background: #E40808; background: rgba(228, 8, 8, 0.18);
+    border: 2px solid #E40808;
+    padding: 0.4em 1.3em .2em .6em;
 }
+    #appBtn i{
+        font-size: 29px;
+        color: #fff;
+    }
+    #appBtnIcon{
+        background-size: 114%;
+        -webkit-background-size: 114%;
+        background-image: url(/icons/iconmonstr-window-apps-icon.svg);
+    }
+    #appBtnText{
+        color: #fff;
+    }
 
+#mblBtn{
+    background: #0078e7;
+    background: rgba(0, 120, 231, 0.35);
+    border: 2px solid #0078e7;
+}
 #mblBtnIcon{
     background-size: 115%;
     -webkit-background-size: 115%;
     background-image: url(/icons/iconmonstr-mobile-phone-5-icon.svg);
 }
 
-#appBtnText{
-    color:rgb(10, 40, 158);
-}
-
 #appBtnText, #appMblText{
-    margin: 0 -18px 0 14px;
+    line-height: 28px;
+    margin: 0 -18px 0 1px;
+    vertical-align: top;
 }
 #main-menu{ 
 	transition: 0.333s;
