@@ -15,6 +15,7 @@
 }
 
 body {
+    color: #fff;
     margin: 0 auto;
     overflow-x:hidden;
     line-height: 1.7em;
@@ -99,12 +100,6 @@ a{
     height: 248px;
 }
 
-.four-boxes{
-    border: 3px solid rgba(0,94,172,1);
-    border-radius: 13px;
-    margin-bottom: 49px;
-}
-
 .text-center{
     text-align: center;
 }
@@ -154,7 +149,7 @@ a{
 #appBtn{
     background: #E40808; background: rgba(228, 8, 8, 0.18);
     border: 2px solid #E40808;
-    padding: 0.4em 1.3em .2em .6em;
+    padding: 0.3em 1.3em .2em .6em;
 }
     #appBtn i{
         font-size: 29px;
@@ -313,8 +308,13 @@ body .primary-button {
     .content .content-ribbon {
         margin: 3em 0;
         border-radius: 13px;
-        background: rgba(0, 94, 172, 1);
-        border: 3px solid rgba(0, 94, 172, 1);
+        background: rgb(0, 94, 172);
+        /*border: 3px solid rgba(0, 94, 172, 1);*/
+    }
+    .our-perspective{
+        padding: 33px 111px;
+        background: rgb(0, 94, 172);
+        background: rgba(0, 94, 172, 0.55) !important;
     }
 
 .pira-home-cap{

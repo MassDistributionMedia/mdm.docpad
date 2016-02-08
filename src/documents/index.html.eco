@@ -31,8 +31,28 @@ id="star-icon" points="256,60.082 304.63,209.75 462,209.75 334.686,302.25 383.31
     </div>
 
     <div class="content pure-u-1">
-        <div class="pure-g-r content-ribbon">
-                
+        <div class="pure-g-r content-ribbon our-perspective">
+                <h1>Our Perspective</h1>
+                <blockquote>
+                    How see see our business and how we interface with others. 
+                </blockquote>
+                <p>
+                    <ul>
+                        <li>
+                            In business two or more people exchange value.
+                        </li>
+                        <li>
+                            This exchange is aimed to better their lives. 
+                        </li>
+                        <li>
+                            Therefore together in business, we make a better world.
+                        </li>
+                    </ul>
+                </p>
+                <blockquote>
+                    This is our ethos as Mass Distribution Media and we constantly 
+                    seek ways technology can improve the lives of our partners and clients. 
+                </blockquote>
         </div>
  
         <div class="pure-g-r">
