@@ -112,6 +112,13 @@
                             fill: ["rgba(46,119,212,1.00)"],
                             stroke: [0,"rgba(0, 0, 0, 0)","none"],
                             transform: [[],['-39'],['-39'],['0.36353']]
+                        },
+                        {
+                            id: 'Text',
+                            type: 'text',
+                            rect: ['122px', '223px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "<p style=\"margin: 0px;\">​<span style=\"font-weight: 900;\">YOUR BRAND</span></p><p style=\"margin: 0px;\"><span style=\"font-weight: 900;\">​ IS ART.</span></p>",
+                            font: ['Arial, Helvetica, sans-serif', [24, ""], "rgba(10,37,118,0.71)", "700", "none", "", "break-word", "nowrap"]
                         }
                     ],
                     style: {
@@ -128,14 +135,14 @@
                     autoPlay: true,
                     data: [
                         [
-                            "eid4239",
-                            "top",
-                            1875,
-                            625,
+                            "eid1616",
+                            "left",
+                            1750,
+                            500,
                             "easeOutSine",
-                            "${long_strip-2Copy}",
-                            '159px',
-                            '303px'
+                            "${small_bottom_blue}",
+                            '-233px',
+                            '-83px'
                         ],
                         [
                             "eid3976",
@@ -199,7 +206,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52530",
+                            "eid53330",
                             "-moz-transform-origin",
                             500,
                             0,
@@ -210,7 +217,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52531",
+                            "eid53331",
                             "-ms-transform-origin",
                             500,
                             0,
@@ -221,7 +228,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52532",
+                            "eid53332",
                             "msTransformOrigin",
                             500,
                             0,
@@ -232,7 +239,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52533",
+                            "eid53333",
                             "-o-transform-origin",
                             500,
                             0,
@@ -243,7 +250,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52534",
+                            "eid53334",
                             "transform-origin",
                             500,
                             0,
@@ -254,90 +261,24 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid2395",
-                            "top",
-                            1500,
+                            "eid5152",
+                            "rotateZ",
+                            1250,
                             500,
                             "easeOutSine",
-                            "${bottom_right_rect}",
-                            '276px',
-                            '505px'
+                            "${rotate_down_top_rect}",
+                            '0deg',
+                            '-39deg'
                         ],
                         [
-                            "eid2396",
-                            "top",
-                            2000,
-                            0,
-                            "linear",
-                            "${bottom_right_rect}",
-                            '505px',
-                            '505px'
-                        ],
-                        [
-                            "eid1025",
-                            "-webkit-transform-origin",
-                            2500,
+                            "eid257",
+                            "boxShadow.offsetV",
+                            1875,
                             0,
                             "easeInQuad",
                             "${skinny_strip_edge}",
-                            [50,100],
-                            [50,100],
-                            {valueTemplate: '@@0@@% @@1@@%'}
-                        ],
-                        [
-                            "eid52535",
-                            "-moz-transform-origin",
-                            2500,
-                            0,
-                            "easeInQuad",
-                            "${skinny_strip_edge}",
-                            [50,100],
-                            [50,100],
-                            {valueTemplate: '@@0@@% @@1@@%'}
-                        ],
-                        [
-                            "eid52536",
-                            "-ms-transform-origin",
-                            2500,
-                            0,
-                            "easeInQuad",
-                            "${skinny_strip_edge}",
-                            [50,100],
-                            [50,100],
-                            {valueTemplate: '@@0@@% @@1@@%'}
-                        ],
-                        [
-                            "eid52537",
-                            "msTransformOrigin",
-                            2500,
-                            0,
-                            "easeInQuad",
-                            "${skinny_strip_edge}",
-                            [50,100],
-                            [50,100],
-                            {valueTemplate: '@@0@@% @@1@@%'}
-                        ],
-                        [
-                            "eid52538",
-                            "-o-transform-origin",
-                            2500,
-                            0,
-                            "easeInQuad",
-                            "${skinny_strip_edge}",
-                            [50,100],
-                            [50,100],
-                            {valueTemplate: '@@0@@% @@1@@%'}
-                        ],
-                        [
-                            "eid52539",
-                            "transform-origin",
-                            2500,
-                            0,
-                            "easeInQuad",
-                            "${skinny_strip_edge}",
-                            [50,100],
-                            [50,100],
-                            {valueTemplate: '@@0@@% @@1@@%'}
+                            '33px',
+                            '33px'
                         ],
                         [
                             "eid6",
@@ -381,7 +322,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52540",
+                            "eid53335",
                             "-moz-transform-origin",
                             0,
                             0,
@@ -392,7 +333,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52541",
+                            "eid53336",
                             "-ms-transform-origin",
                             0,
                             0,
@@ -403,7 +344,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52542",
+                            "eid53337",
                             "msTransformOrigin",
                             0,
                             0,
@@ -414,7 +355,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52543",
+                            "eid53338",
                             "-o-transform-origin",
                             0,
                             0,
@@ -425,7 +366,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52544",
+                            "eid53339",
                             "transform-origin",
                             0,
                             0,
@@ -436,16 +377,6 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid257",
-                            "boxShadow.offsetV",
-                            1875,
-                            0,
-                            "easeInQuad",
-                            "${skinny_strip_edge}",
-                            '33px',
-                            '33px'
-                        ],
-                        [
                             "eid2853",
                             "left",
                             2500,
@@ -454,26 +385,6 @@
                             "${long_strip-2}",
                             '703px',
                             '328px'
-                        ],
-                        [
-                            "eid252",
-                            "boxShadow.offsetH",
-                            1875,
-                            0,
-                            "easeInQuad",
-                            "${skinny_strip_edge}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid1615",
-                            "top",
-                            1750,
-                            500,
-                            "easeOutSine",
-                            "${small_bottom_blue}",
-                            '733px',
-                            '612px'
                         ],
                         [
                             "eid3314",
@@ -493,16 +404,6 @@
                             "easeInQuad",
                             "${skinny_strip_edge}",
                             '1px',
-                            '1px'
-                        ],
-                        [
-                            "eid3455",
-                            "boxShadow.blur",
-                            2500,
-                            750,
-                            "easeOutSine",
-                            "${circle_hole}",
-                            '7px',
                             '1px'
                         ],
                         [
@@ -526,26 +427,6 @@
                             [50,50,true,'farthest-corner',[['rgba(11,41,185,1.00)',0],['rgba(13,27,153,1.00)',100]]]
                         ],
                         [
-                            "eid254",
-                            "boxShadow.blur",
-                            1875,
-                            0,
-                            "easeInQuad",
-                            "${skinny_strip_edge}",
-                            '29px',
-                            '29px'
-                        ],
-                        [
-                            "eid5152",
-                            "rotateZ",
-                            1250,
-                            500,
-                            "easeOutSine",
-                            "${rotate_down_top_rect}",
-                            '0deg',
-                            '-39deg'
-                        ],
-                        [
                             "eid2854",
                             "top",
                             2500,
@@ -554,16 +435,6 @@
                             "${long_strip-2}",
                             '221px',
                             '526px'
-                        ],
-                        [
-                            "eid1616",
-                            "left",
-                            1750,
-                            500,
-                            "easeOutSine",
-                            "${small_bottom_blue}",
-                            '-233px',
-                            '-83px'
                         ],
                         [
                             "eid1565",
@@ -587,7 +458,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52545",
+                            "eid53340",
                             "-moz-transform-origin",
                             0,
                             0,
@@ -598,7 +469,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52546",
+                            "eid53341",
                             "-ms-transform-origin",
                             0,
                             0,
@@ -609,7 +480,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52547",
+                            "eid53342",
                             "msTransformOrigin",
                             0,
                             0,
@@ -620,7 +491,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52548",
+                            "eid53343",
                             "-o-transform-origin",
                             0,
                             0,
@@ -631,7 +502,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid52549",
+                            "eid53344",
                             "transform-origin",
                             0,
                             0,
@@ -642,24 +513,34 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid107",
-                            "boxShadow.blur",
-                            1250,
+                            "eid1615",
+                            "top",
+                            1750,
                             500,
                             "easeOutSine",
-                            "${rotate_down_top_rect}",
-                            '0px',
-                            '1px'
+                            "${small_bottom_blue}",
+                            '733px',
+                            '612px'
                         ],
                         [
-                            "eid6167",
-                            "bottom",
-                            2500,
-                            750,
-                            "easeOutQuad",
-                            "${big_flat_top}",
-                            '650px',
-                            '84px'
+                            "eid2395",
+                            "top",
+                            1500,
+                            500,
+                            "easeOutSine",
+                            "${bottom_right_rect}",
+                            '276px',
+                            '505px'
+                        ],
+                        [
+                            "eid2396",
+                            "top",
+                            2000,
+                            0,
+                            "linear",
+                            "${bottom_right_rect}",
+                            '505px',
+                            '505px'
                         ],
                         [
                             "eid2394",
@@ -682,24 +563,54 @@
                             '574px'
                         ],
                         [
-                            "eid4177",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${bottom_right_rect}",
-                            'none',
-                            'none'
+                            "eid6167",
+                            "bottom",
+                            2500,
+                            750,
+                            "easeOutQuad",
+                            "${big_flat_top}",
+                            '650px',
+                            '84px'
                         ],
                         [
-                            "eid4178",
-                            "display",
-                            1500,
+                            "eid254",
+                            "boxShadow.blur",
+                            1875,
                             0,
-                            "linear",
-                            "${bottom_right_rect}",
-                            'none',
-                            'block'
+                            "easeInQuad",
+                            "${skinny_strip_edge}",
+                            '29px',
+                            '29px'
+                        ],
+                        [
+                            "eid106",
+                            "boxShadow.offsetH",
+                            1250,
+                            500,
+                            "easeOutSine",
+                            "${rotate_down_top_rect}",
+                            '0px',
+                            '3px'
+                        ],
+                        [
+                            "eid3",
+                            "left",
+                            0,
+                            500,
+                            "easeOutSine",
+                            "${dark_blue_vert_left_rect}",
+                            '1002px',
+                            '822px'
+                        ],
+                        [
+                            "eid4239",
+                            "top",
+                            1875,
+                            625,
+                            "easeOutSine",
+                            "${long_strip-2Copy}",
+                            '159px',
+                            '303px'
                         ],
                         [
                             "eid2880",
@@ -722,24 +633,44 @@
                             'block'
                         ],
                         [
-                            "eid3",
-                            "left",
+                            "eid252",
+                            "boxShadow.offsetH",
+                            1875,
                             0,
-                            500,
-                            "easeOutSine",
-                            "${dark_blue_vert_left_rect}",
-                            '1002px',
-                            '822px'
+                            "easeInQuad",
+                            "${skinny_strip_edge}",
+                            '0px',
+                            '0px'
                         ],
                         [
-                            "eid106",
-                            "boxShadow.offsetH",
+                            "eid4177",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${bottom_right_rect}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid4178",
+                            "display",
+                            1500,
+                            0,
+                            "linear",
+                            "${bottom_right_rect}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid107",
+                            "boxShadow.blur",
                             1250,
                             500,
                             "easeOutSine",
                             "${rotate_down_top_rect}",
                             '0px',
-                            '3px'
+                            '1px'
                         ],
                         [
                             "eid259",
@@ -780,6 +711,82 @@
                             "${big_flat_top}",
                             'none',
                             'block'
+                        ],
+                        [
+                            "eid1025",
+                            "-webkit-transform-origin",
+                            2500,
+                            0,
+                            "easeInQuad",
+                            "${skinny_strip_edge}",
+                            [50,100],
+                            [50,100],
+                            {valueTemplate: '@@0@@% @@1@@%'}
+                        ],
+                        [
+                            "eid53345",
+                            "-moz-transform-origin",
+                            2500,
+                            0,
+                            "easeInQuad",
+                            "${skinny_strip_edge}",
+                            [50,100],
+                            [50,100],
+                            {valueTemplate: '@@0@@% @@1@@%'}
+                        ],
+                        [
+                            "eid53346",
+                            "-ms-transform-origin",
+                            2500,
+                            0,
+                            "easeInQuad",
+                            "${skinny_strip_edge}",
+                            [50,100],
+                            [50,100],
+                            {valueTemplate: '@@0@@% @@1@@%'}
+                        ],
+                        [
+                            "eid53347",
+                            "msTransformOrigin",
+                            2500,
+                            0,
+                            "easeInQuad",
+                            "${skinny_strip_edge}",
+                            [50,100],
+                            [50,100],
+                            {valueTemplate: '@@0@@% @@1@@%'}
+                        ],
+                        [
+                            "eid53348",
+                            "-o-transform-origin",
+                            2500,
+                            0,
+                            "easeInQuad",
+                            "${skinny_strip_edge}",
+                            [50,100],
+                            [50,100],
+                            {valueTemplate: '@@0@@% @@1@@%'}
+                        ],
+                        [
+                            "eid53349",
+                            "transform-origin",
+                            2500,
+                            0,
+                            "easeInQuad",
+                            "${skinny_strip_edge}",
+                            [50,100],
+                            [50,100],
+                            {valueTemplate: '@@0@@% @@1@@%'}
+                        ],
+                        [
+                            "eid3455",
+                            "boxShadow.blur",
+                            2500,
+                            750,
+                            "easeOutSine",
+                            "${circle_hole}",
+                            '7px',
+                            '1px'
                         ],
                         [
                             "eid6166",
