@@ -1,8 +1,7 @@
 ---
 title: Tech
-layout: blank
+layout: default
 tags: ['tech','page']
 pageOrder: 1
 ---
 
-<iframe src="http://demo.geekslabs.com/materialize/v2.1/layout01/index.html" width="100%" height="1800px" frameborder="0"></iframe>
