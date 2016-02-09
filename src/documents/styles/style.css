@@ -122,7 +122,7 @@ a{
 
     .slogan .pure-button{
         border-radius: 13px;
-        margin: -129px 3px auto;
+        margin: -129px 3px auto 9px;
         padding: .3em 1.4em .3em .7em;
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     }
@@ -330,7 +330,6 @@ body .primary-button {
             margin: 2.7% -3% auto auto;
             text-align: right;
             display: inline-block;
-            display: inline-block;
         }
         .design-content svg{
             transform: rotate(39deg);
@@ -340,9 +339,25 @@ body .primary-button {
             left: -253px;
         }
         .design-content svg rect{
-            fill: rgb(10, 5, 122);
+            width:100%; height:666px;
+            fill: url(#dark-blue-gradient);
         }
-
+        .creatives rect{
+            width: 68%;
+            height: 43%;
+            transform: rotate(39deg);
+        }
+            .blue-tinted image {
+              filter: url(#blue-tint);
+            }
+            .creatives .about-ryan{
+                float: right;
+                margin: 125px auto auto -14%;
+                position: absolute;
+            }
+            .ryan .pure-u-2-3{
+                margin-bottom: -8px;
+            }
         
 .ribbon {
     background: #eee;
@@ -375,15 +390,74 @@ body .primary-button {
 
 /* Portrait and Landscape */
 @media screen and (max-height: 640px) {
-        .logo-link{ margin: -3px 13px -22px 0px !important;}
-            .logo-link img{margin: 7px 0 0 0;}
-            .header .pure-menu li{padding: 3px 7px;}
-            .nav-header{margin: 73px auto auto 121px;}
-            .we-bitcoin{display:none;}
+    .logo-link{ margin: -3px 13px -22px 0px !important;}
+        .logo-link img{
+            margin: 7px 0 0 0;
+            width: 74px;
+        }
+        .header .pure-menu li{padding: 3px 7px;}
+        .nav-header{margin: 33px auto auto 0;}
+        .we-bitcoin{display:none;}
+        
+        .main-menu-scrolled{
+                height: 59px;
+        }
             .main-menu-scrolled .logo-link {
                 margin: -10px 13px -22px 0px !important;
             }
             .main-menu-scrolled .nav-header {
-                margin: 25px auto auto 135px;
+                margin: 3px auto auto 0;
             }
+            
+    .our-perspective{
+        padding: 39px;
+        width: 77%;
+    }
+        
+
+    .design-content .pure-g-r{
+        margin-top: -71px; 
+    }
+        .design-content svg{
+            transform: rotate(42deg);
+            top: -250px;
+            left: -189px;
+        }
+            .design-content svg rect{
+                height: 684px;
+            }
+        .design-content .pure-u-1-4{
+            margin: 0;
+            text-align: left;
+        }
+        .design-content .pure-u-1-4 h1{
+            font-size: 16px;
+        }
+        .design-content .pure-u-3-5{
+            font-size: 15px;
+            margin: -2px -33px auto auto;
+            position: static;
+            float: right;
+            width: 71%;
+        }
+            .design-content .pure-u-3-5 p{
+                width: 71%;
+            }
+        
+        .ryan svg{
+            height: 377px;
+        }
+            #ryan-picture{
+                y: -333px;
+            }
+            .creatives.pure-u-1{
+                margin-top: -35px;
+            }
+            .creatives .about-ryan{
+                margin: auto;
+                position: static;
+                width: 88%;
+                padding: 33px;
+            }
+    
 }

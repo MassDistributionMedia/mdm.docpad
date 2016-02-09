@@ -6,18 +6,45 @@ pageOrder: 2
 ---
 
 <style>
-    body{background: #3A7DD8;} /* #0752b8 */
+    body{
+        background: #3A7DD8;
+    } /* #0752b8 */
     .we-bitcoin{display:none;}
     .content{max-width: none;}
     .footer{border-radius: 0;}
+    .svg-defs{
+      position: absolute;
+      height: 0; width: 0;
+      overflow: none;
+      left: -100%;
+    }
 </style>
+
+<svg class="svg-defs">
+     <!--https://css-tricks.com/color-filters-can-turn-your-gray-skies-blue/-->
+    <defs>
+        <filter id="blue-tint" color-interpolation-filters="sRGB" x="0" y="0" height="100%" width="100%">
+            <feComponentTransfer>
+                <feFuncR type="gamma" amplitude="0.46" exponent="0.6" offset="-0.02" />
+                <feFuncG type="gamma" amplitude="1.01" exponent="0.85" offset="-0.01" />
+                <feFuncB type="gamma" amplitude="1.46" exponent="0.7" offset="0.02"/>
+            </feComponentTransfer>
+        </filter>
+        
+        <!--http://www.w3schools.com/svg/svg_grad_linear.asp-->
+        <linearGradient id="dark-blue-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:rgb(10, 5, 122);stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#0E07A9;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+</svg>
 
 <%- @partial('blue-shapes') %>
 
 <div class="design-content pure-u-1">
     <div class="pure-g-r">
         <svg width="50%" height="666">
-          <rect width="100%" height="666" />
+          <rect/>
         </svg>
         <div class="pure-u-1-4">
              <h1>
@@ -40,29 +67,35 @@ pageOrder: 2
 <div class="creatives pure-u-1">
     <div class="ryan pure-g-r">
         <div class="pure-u-2-3">
-   <!--         
-            <svg width="700" height="660">
-              <defs>
-                <pattern id="image" x="0" y="0" patternUnits="userSpaceOnUse" height="1" width="1">
-                  <image x="0" y="0" xlink:href="url.png"></image>
-                </pattern>
-              </defs>
-              <circle id='top' cx="180" cy="120" r="80" fill="url(#image)"/>
-            </svg>
-            
-            -->
+
             <svg height="666" width="100%">
                 <defs>
-                    <pattern id="image" x="0" y="0" patternUnits="userSpaceOnUse" height="100%" width="100%">
-                        <image width="100%" height="100%" x="0" y="0" xlink:href="https://c3125f8fd12857977050412ec30b373c34a64e93.googledrive.com/host/0B9LVk4xbDIJTY1ZFVWhMNkMxakk"></image>
+                    <pattern class="blue-tinted" id="ryan-ally-image" x="0" y="0" patternUnits="userSpaceOnUse" height="100%" width="100%">
+                        <image width="100%" height="100%" x="0" y="190" xlink:href="https://c3125f8fd12857977050412ec30b373c34a64e93.googledrive.com/host/0B9LVk4xbDIJTY1ZFVWhMNkMxakk"></image>
+                    </pattern>
+                    <pattern id="ryan-picture" x="-39" y="0" patternUnits="userSpaceOnUse" height="100%" width="100%">
+                        <image width="100%" height="100%" x="0" y="0" xlink:href="https://b597e52628970841883d5e7e46354d4ebcb9722a.googledrive.com/host/0B9LVk4xbDIJTX2hxSXREeTJWSEE"></image>
                     </pattern>
                 </defs>
-                <circle cx="39%" cy="50%" r="222" fill="url(#image)" />
+                <circle cx="39%" cy="50%" r="222" fill="url(#ryan-picture)" />
+                <rect x="22%" y="37%" fill="url(#ryan-ally-image)" />
             </svg>
             
-            
-            
         </div>
-        <div class="pure-u-1-3"></div>
+        <div class="pure-u-2-5 about-ryan">
+            <h3>Meet MDM's Creative Director, Ryan Krukowski.</h3>
+            <p>
+                Born in New Brunswick, NJ, Ryan Krukowski is an acclaimed New York City based
+                photographer and visual artist, who has earned both critical and commercial recognition
+                for his powerful wide-angle imagery. In early 2006 while photographing burning couches
+                in the streets of Morgantown, West Virgina, his addiction to capture time and space was
+                put in motion.
+                <br/> <br/>
+                Constantly on the move, riding the wave of everyday life, he finds peace through simple
+                observation. Today you can find him roaming urban landscapes, mountain biking, and
+                creating adventures for his little nephew Brandon. Encouraging all kids to explore art,
+                imagination, and humanity.
+            </p>
+        </div>
     </div>
 </div>
