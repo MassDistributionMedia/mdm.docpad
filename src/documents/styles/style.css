@@ -306,12 +306,14 @@ body .primary-button {
     .content .content-ribbon {
         margin: 3em 0;
         border-radius: 13px;
-        background: rgb(0, 94, 172);
+        background: rgba(0, 14, 31, 0.24);
         /*border: 3px solid rgba(0, 94, 172, 1);*/
     }
     .our-perspective{
-        padding: 33px 111px;
-        background: transparent !important;
+        color: #00549A;
+        padding: 33px 111px 33px 77px;
+        background: rgb(0, 14, 31);
+        background: rgba(0, 14, 31, 0.24) url(https://65795cba5d013a6557873bd356fe86349be05630.googledrive.com/host/0B9LVk4xbDIJTYkpMcW15MlVkOHc) 133px -129px !important;
     }
     .design-content{
         padding: 111px 33px;
@@ -376,7 +378,11 @@ body .primary-button {
         color: #fff; /* #005EAC */
         border-top-left-radius: 13px;
         border-top-right-radius: 13px;
-        background: #002D42 url(https://745ee71aa6c1f4da35d12eaf0110b243e8cd44c8.googledrive.com/host/0B9LVk4xbDIJTdGwyWGEwcmhRcFU) 0 -140px;
+        background: rgb(0, 14, 31);
+        background: rgba(0, 14, 31, 0.73);
+    }
+    .footer-ribbon h2{
+        opacity: 0.8;
     }
 
 .footer {
