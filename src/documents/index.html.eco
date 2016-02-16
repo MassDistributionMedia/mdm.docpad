@@ -55,10 +55,38 @@ id="star-icon" points="256,60.082 304.63,209.75 462,209.75 334.686,302.25 383.31
                     seek ways technology can improve the lives of our partners and clients. 
                 </blockquote>
         </div>
+        
+        <div class="content pure-u-1">
+            <div class="pure-g-r content-ribbon clients">
+                <h1> Our Clients</h1>
+                <ul>
+                    <li>
+                        <a href="http://www.solarsystemexpress.com/">
+                            <img src="https://d3bbb30bea8425002a709c49dc232c8ffd680f68.googledrive.com/host/0B6r88rAVAb7RUFJiOWZ1VktfaGM/sselogo_2-tone.png" alt="Solar System Express"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://newspace.nyc">
+                            <img src="https://e01664e04f761a953c177fc6c099b54b4a0ab988.googledrive.com/host/0B9LVk4xbDIJTRmwzeHdZZERtOGM/new-newspacenyc_logo.svg" alt="NewSpace NYC"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.pongsatparts.com/">
+                            <img src="https://abd7fa0b807c5695f48fab84701d72e589f7aff2.googledrive.com/host/0B6r88rAVAb7RTTE3alBNd3JPZ1E" alt="PongSat Parts"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://mikeumus.github.io/viraloid.docpad/">
+                            <img class="viraloid" src="https://f1cffcba77d02cec8a067e72a878695842498089.googledrive.com/host/0B92YJK5CJQemNHdJYksyZXBTekk/logo.png" alt="Viraloid app logo"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
  
         <div class="pure-g-r">
             <div class="pure-u-1">
-                <div class="l-box ribbon footer-ribbon">
+                <div class="l-box ribbon footer-ribbon tech-nature-slogan">
                     <h2>Tech as a force of nature for good.</h2>
                     <!--<a href="#" class="pure-button primary-button">Canta-se</a>-->
                 </div>

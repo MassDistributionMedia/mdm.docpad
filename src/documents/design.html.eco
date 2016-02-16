@@ -11,7 +11,6 @@ pageOrder: 2
     } /* #0752b8 */
     .we-bitcoin{display:none;}
     .content{max-width: none;}
-    .footer{border-radius: 0;}
     .svg-defs{
       position: absolute;
       height: 0; width: 0;

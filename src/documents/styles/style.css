@@ -20,7 +20,7 @@ body {
     overflow-x:hidden;
     line-height: 1.7em;
     font-family: 'Open Sans', sans-serif;
-    background:url(https://745ee71aa6c1f4da35d12eaf0110b243e8cd44c8.googledrive.com/host/0B9LVk4xbDIJTdGwyWGEwcmhRcFU);
+    background:rgb(0, 13, 30) url(https://745ee71aa6c1f4da35d12eaf0110b243e8cd44c8.googledrive.com/host/0B9LVk4xbDIJTdGwyWGEwcmhRcFU) no-repeat;
 }
 a{
     text-decoration: none;
@@ -267,11 +267,7 @@ body .primary-button {
 .accept-li{
     border: none !important;
 }
-.accept-b{
-    margin: 0 0 0 29%;
-}
 .we-bitcoin{
-    width:233px;
     text-align: right;
     border: none !important;
     position:fixed;
@@ -361,11 +357,38 @@ body .primary-button {
                 margin-bottom: -8px;
             }
             .emily .pure-u-2-3{
-                margin-bottom: -15px;
+                margin-bottom: -16px;
             }
             .emily-shape{
                 width: 679px;
                 height: 522px;
+            }
+        .clients{
+            padding: 55px;
+            color: #00549A;
+            text-align: center;
+            /*background: rgb(162, 194, 234) !important;*/
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,deeefe+100 */
+            background: rgb(255,255,255) !important; /* Old browsers */
+            background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(222,238,254,1) 100%) !important; /* FF3.6-15 */
+            background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(222,238,254,1) 100%) !important; /* Chrome10-25,Safari5.1-6 */
+            background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(222,238,254,1) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#deeefe',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
+
+        }
+        .clients li{
+            list-style: none;
+            display: inline-block;
+        }
+            .clients img{
+                /*width: 333px;*/
+                height:111px;
+                margin: 13px 33px;
+            }
+            .viraloid{
+                background: #FF6228;
+                padding: 21px 23px;
+                border-radius: 13px;
             }
         
 .ribbon {
@@ -383,8 +406,6 @@ body .primary-button {
         width: 88%;
         margin: auto;
         color: #fff; /* #005EAC */
-        border-top-left-radius: 13px;
-        border-top-right-radius: 13px;
         background: rgb(0, 14, 31);
         background: rgba(0, 14, 31, 0.73);
     }
@@ -392,14 +413,36 @@ body .primary-button {
         opacity: 0.8;
     }
 
+.tech-nature-slogan{
+    margin: 111px auto;
+    border-bottom: 3px solid #005EAC;
+    font-style: italic;
+    border-radius: 0;
+}
+
 .footer {
-    background: #005EAC;
+    /*background: rgb(11, 9, 58);*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000e1e+0,002c41+100 */
+    background: rgb(0,14,30); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(0,14,30,1) 0%, rgba(0,44,65,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,14,30,1) 0%,rgba(0,44,65,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,14,30,1) 0%,rgba(0,44,65,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000e1e', endColorstr='#002c41',GradientType=0 ); /* IE6-9 */
+
+    height: 202px;
     color: #fff;
     text-align: center;
     font-size: 80%;
-    border-top-left-radius: 13px;
-    border-top-right-radius: 13px;
+    width: 100%;
+    position: absolute;
+    left: 0;
 }
+    .footer p{
+        margin: 99px auto 0;
+    }
+    .footer a{
+        color:#F4F4F9;
+    }
 
 /* Portrait and Landscape */
 @media screen and (max-height: 640px) {
