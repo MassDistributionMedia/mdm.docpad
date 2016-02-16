@@ -268,6 +268,7 @@ body .primary-button {
     border: none !important;
 }
 .we-bitcoin{
+    width: 233px;
     text-align: right;
     border: none !important;
     position:fixed;
