@@ -50,9 +50,9 @@
 
 		<ul class="nav-header">
 			<!-- <li class="pure-menu-selected"><a href="/">Home</a></li> -->
-			<li><a href="./tech.html">Tech</a></li>
-			<li><a href="./design.html">Design</a></li>
-			<li><a href="./pages/posts.html">Blog</a></li>
+			<li><a href="/tech.html">Tech</a></li>
+			<li><a href="/design.html">Design</a></li>
+			<li><a href="/pages/posts.html">Blog</a></li>
 			<!--<% for document in @getCollection('pages').toJSON(): %>
 				<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
 					<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
