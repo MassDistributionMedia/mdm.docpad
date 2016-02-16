@@ -98,4 +98,28 @@ pageOrder: 2
             </p>
         </div>
     </div>
+    <div class="emily pure-g-r">
+        <div class="pure-u-2-3">
+    
+            <svg height="530" width="100%">
+                <defs>
+                    <pattern id="emily-shape" x="-64" y="-534" patternUnits="userSpaceOnUse" height="100%" width="100%">
+                        <image width="109%" height="100%" x="0" y="0" xlink:href="https://3cda4be9be85b8e4bc95d9f34813bab6f44888ef.googledrive.com/host/0B9LVk4xbDIJTdENCcWF0ZEY3aXM"></image>
+                    </pattern>
+                </defs>
+                <rect class="emily-shape" x="0" y="0" fill="url(#emily-shape)" />
+            </svg>
+            
+        </div>
+        <div class="pure-u-2-5 about-ryan">
+            <h3>MDM's Lead Digital Artist, Emily Kil.</h3>
+            <p>
+                Born in New Brunswick, NJ, Ryan Krukowski is an acclaimed New York City based
+                photographer and visual artist, who has earned both critical and commercial recognition
+                for his powerful wide-angle imagery. In early 2006 while photographing burning couches
+                in the streets of Morgantown, West Virgina, his addiction to capture time and space was
+                put in motion.
+            </p>
+        </div>
+    </div>
 </div>

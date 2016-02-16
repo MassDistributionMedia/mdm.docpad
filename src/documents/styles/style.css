@@ -344,7 +344,7 @@ body .primary-button {
             width:100%; height:666px;
             fill: url(#dark-blue-gradient);
         }
-        .creatives rect{
+        .creatives .ryan rect{
             width: 68%;
             height: 43%;
             transform: rotate(39deg);
@@ -359,6 +359,13 @@ body .primary-button {
             }
             .ryan .pure-u-2-3{
                 margin-bottom: -8px;
+            }
+            .emily .pure-u-2-3{
+                margin-bottom: -15px;
+            }
+            .emily-shape{
+                width: 679px;
+                height: 522px;
             }
         
 .ribbon {
