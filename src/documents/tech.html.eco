@@ -22,3 +22,36 @@ pageOrder: 1
 </style>
 
 <%- @partial('tech-animation') %>
+
+<div class="creatives pure-u-1">
+    <div class="mike pure-g-r">
+        <div class="pure-u-2-3">
+
+            <svg height="666" width="100%">
+                <defs>
+                    <pattern id="mike-picture" x="-39" y="0" patternUnits="userSpaceOnUse" height="100%" width="100%">
+                        <image width="100%" height="100%" x="0" y="0" xlink:href="https://4e2c2ec51967540e8b406a60cba8ff793db4e6dc.googledrive.com/host/0B9LVk4xbDIJTc0MzVjJrM2F4bmc"></image>
+                    </pattern>
+                </defs>
+                <circle cx="39%" cy="50%" r="222" fill="url(#mike-picture)" />
+                <rect x="22%" y="37%" fill="url(#ryan-ally-image)" />
+            </svg>
+            
+        </div>
+        <div class="pure-u-2-5 about-mike">
+            <h3>Meet MDM's Founder & Technical Director, Michael Mooring.</h3>
+            <p>
+                Michael had his first computer when he was 3 and has been dreaming of ways technology can 
+                fill gaps in society ever since. With vision Michael has predicted many of the technologies
+                see today like PhoneGap's native features and discusions on a 
+                <a href="http://singularityhub.com/2015/03/30/the-growing-precariat-why-a-basic-income-is-needed/">universal wage</a>
+                as machine learning becomes strong AI. 
+                <br/> <br/>
+                Michael brings this vision to the work he does with his clients to deliver creative solutions.
+                He can relate to startup businesses having co-founded many and learning first hard the challenges they face. 
+                He sees and understand technology litterally as a part of nature, having it's own observable traits
+                and he teaches these to his partners and clients so that they may align themselves best with the way technology really wants to work. 
+            </p>
+        </div>
+    </div>
+</div>

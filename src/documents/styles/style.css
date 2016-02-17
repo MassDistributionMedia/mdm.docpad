@@ -23,6 +23,7 @@ body {
     background:rgb(0, 13, 30) url(https://745ee71aa6c1f4da35d12eaf0110b243e8cd44c8.googledrive.com/host/0B9LVk4xbDIJTdGwyWGEwcmhRcFU) no-repeat;
 }
 a{
+    color: orange;
     text-decoration: none;
 }
 #Stage{
@@ -287,6 +288,11 @@ body .primary-button {
             fill: #005EAC;
         }
 
+article#page{
+    min-height: 1111px;
+    margin: 202px 77px auto;
+}
+
 .content{
     max-width: 1080px;
     margin: 0 auto;
@@ -349,12 +355,18 @@ body .primary-button {
             .blue-tinted image {
               filter: url(#blue-tint);
             }
-            .creatives .about-ryan{
+            .creatives .about-ryan, .about-mike{
                 float: right;
                 margin: 125px auto auto -14%;
                 position: absolute;
             }
-            .ryan .pure-u-2-3{
+                .about-mike{
+                    margin-top:107px;
+                }
+            .mike svg{
+                margin: auto auto auto -7%;
+            }
+            .ryan .pure-u-2-3, .mike .pure-u-2-3{
                 margin-bottom: -8px;
             }
             .emily .pure-u-2-3{
@@ -383,8 +395,13 @@ body .primary-button {
         }
             .clients img{
                 /*width: 333px;*/
-                height:111px;
+                height:77px;
                 margin: 13px 33px;
+            }
+            .arkivum{
+                background: #0095CE;
+                padding: 13px 27px;
+                border-radius: 13px;
             }
             .viraloid{
                 background: #FF6228;

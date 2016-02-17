@@ -21,9 +21,6 @@
 	<!-- Output DocPad produced meta elements -->
 	<%- @getBlock('meta').toHTML() %>
 
-	<!-- Icons -->
-    <link rel="shortcut icon" href="icons/favicon.ico">
-
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
 		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
