@@ -398,6 +398,9 @@ article#page, article#post{
                 height:77px;
                 margin: 13px 33px;
             }
+            .solx{
+                height: 91px !important;
+            }
             .arkivum{
                 background: #0095CE;
                 padding: 13px 27px;
