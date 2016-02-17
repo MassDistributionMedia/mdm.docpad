@@ -288,7 +288,7 @@ body .primary-button {
             fill: #005EAC;
         }
 
-article#page{
+article#page, article#post{
     min-height: 1111px;
     margin: 202px 77px auto;
 }
