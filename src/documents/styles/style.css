@@ -269,13 +269,12 @@ body .primary-button {
     border: none !important;
 }
 .we-bitcoin{
-    width: 233px;
-    text-align: right;
-    border: none !important;
-    position:fixed;
-    top: 60px;
-    color: #005EAC;
     margin: auto auto auto 51px;
+    border: none !important;
+    color: #005EAC;
+    position:fixed;
+    right: 17%;
+    top: 60px;
 }
     .bitcoin{
         width: 45px;
@@ -455,8 +454,6 @@ article#page, article#post{
     text-align: center;
     font-size: 80%;
     width: 100%;
-    position: absolute;
-    left: 0;
 }
     .footer p{
         margin: 99px auto 0;

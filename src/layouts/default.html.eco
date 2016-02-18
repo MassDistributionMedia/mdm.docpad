@@ -70,19 +70,20 @@
 
 	<%- @content %>
 
-	<div class="footer pure-u-1"> 
-		<p>
-			<a href="/privacy.html">Privacy</a>
-			<br/>
-			&copy;<%- (new Date()).getFullYear() %> Mass Distribution Media Inc.
-			<br/>
-			<span class="muted"> Last updated <%= @site.date.toISOString() %></span>
-		</p>
-	</div>
 </div>
 
-	<!-- Scripts -->
-	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+<div class="footer pure-u-1"> 
+	<p>
+		<a href="/privacy.html">Privacy</a>
+		<br/>
+		&copy;<%- (new Date()).getFullYear() %> Mass Distribution Media Inc.
+		<br/>
+		<span class="muted"> Last updated <%= @site.date.toISOString() %></span>
+	</p>
+</div>
+
+<!-- Scripts -->
+<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 	
 </body>
 </html>
