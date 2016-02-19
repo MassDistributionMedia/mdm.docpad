@@ -475,6 +475,9 @@ article#page, article#post{
         margin: 20px auto auto !important;
         padding: 13px;
     }
+    #Stage{
+        margin: -60px auto auto -20%;
+    }
     .logo-link{ margin: -3px 13px -22px 0px !important;}
         .logo-link img{
             margin: 7px 0 0 0;
@@ -497,17 +500,20 @@ article#page, article#post{
         
     .splash{
         /*border-radius: 0;*/
-        margin: 0 auto;
-    }   
-    .header{
-        margin: 106px auto 0;
+        margin: 77px auto;
     }
     svg.hero-circle{
         z-index: -1;
     }
+    .slogan{
+        width: 100%;
+    }
+    .slogan-buttons{
+        margin: -2px auto auto auto;
+    }
     .slogan .pure-button{
         width: 113px;
-        float: left;
+        margin: auto;
     }
         #appBtnText, #appMblText{
             font-size: 18px;
@@ -516,7 +522,7 @@ article#page, article#post{
             font-size: 23px;
         }
     .our-perspective{
-        padding: 39px;
+        padding: 23px;
         /*border-radius:0;*/
         background: rgba(0, 14, 31, 0.24) url(https://65795cba5d013a6557873bd356fe86349be05630.googledrive.com/host/0B9LVk4xbDIJTYkpMcW15MlVkOHc) 0 !important;
     }
@@ -531,11 +537,18 @@ article#page, article#post{
             .clients li{
                 width: 100%;
             }
-        .clients img{
-            margin: 13px auto;
-        }
+            .clients img{
+                height: 66px;
+                margin: 13px auto;
+            }
+            .newspace{
+                height: 57px !important;
+            }
         
-
+    .design-content{
+        margin: 354px auto auto;
+        padding:0;
+    }
     .design-content .pure-g-r{
         margin-top: -71px; 
     }
@@ -548,26 +561,30 @@ article#page, article#post{
                 height: 684px;
             }
         .design-content .pure-u-1-4{
-            margin: 0;
+            margin: -99px auto auto;
             text-align: left;
+            width: 113px;
         }
         .design-content .pure-u-1-4 h1{
-            font-size: 16px;
+            font-size: 14px;
+            line-height: 19px;
         }
         .design-content .pure-u-3-5{
             font-size: 15px;
-            margin: -2px -33px auto auto;
+            margin: -44px 10px auto auto;
             position: static;
             float: right;
-            width: 71%;
+            width: 256px;
         }
-            .design-content .pure-u-3-5 p{
-                width: 71%;
-            }
         
         .ryan svg{
             height: 337px;
+            width: 333px;
+            margin: 77px auto auto;
         }
+            .ryan svg circle{
+                r: 166;
+            }
             #ryan-picture{
                 y: -333px;
             }
@@ -584,20 +601,24 @@ article#page, article#post{
     .about-mike{
         width: 82%;
         position: relative;
-        padding: 39px;
+        padding: 13px 33px 39px;
         margin-top: 0;
     }    
     .mike svg{
-        width: 487px;
-        height: 375px;
+        width: 432px;
+        height: 230px;
         margin: auto;
+        position: relative;
     }
+        .mike svg circle{
+            r:111;
+        }
         #mike-picture{
             x: -27px;
         }
             
     .footer-ribbon h2{
-        font-size: 19px;
+        font-size: 15px;
     }
     .footer-ribbon{
         width: initial;

@@ -79,7 +79,7 @@ id="star-icon" points="256,60.082 304.63,209.75 462,209.75 334.686,302.25 383.31
                     </li>
                     <li>
                         <a title="NewSpace NYC" href="https://newspace.nyc">
-                            <img src="https://e01664e04f761a953c177fc6c099b54b4a0ab988.googledrive.com/host/0B9LVk4xbDIJTRmwzeHdZZERtOGM/new-newspacenyc_logo.svg" alt="NewSpace NYC"/>
+                            <img class="newspace" src="https://e01664e04f761a953c177fc6c099b54b4a0ab988.googledrive.com/host/0B9LVk4xbDIJTRmwzeHdZZERtOGM/new-newspacenyc_logo.svg" alt="NewSpace NYC"/>
                         </a>
                     </li>
                     <li>

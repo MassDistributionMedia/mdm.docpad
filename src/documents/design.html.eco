@@ -17,6 +17,9 @@ pageOrder: 2
       overflow: none;
       left: -100%;
     }
+    #Stage{
+        transform: scale(0.69) !important;
+    }
 </style>
 
 <svg class="svg-defs">
