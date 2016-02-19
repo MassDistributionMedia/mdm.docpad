@@ -467,13 +467,21 @@ article#page, article#post{
 
 /* Portrait and Landscape */
 @media screen and (max-height: 640px) {
+    .content .content-ribbon{
+        /*border-radius:0;*/
+    }
+    .content.pure-g-r{
+        min-height: inherit !important;
+        margin: 20px auto auto !important;
+        padding: 13px;
+    }
     .logo-link{ margin: -3px 13px -22px 0px !important;}
         .logo-link img{
             margin: 7px 0 0 0;
             width: 74px;
         }
         .header .pure-menu li{padding: 3px 7px;}
-        .nav-header{margin: 33px auto auto 0;}
+        .nav-header{margin: 33px auto auto 0 !important;}
         .we-bitcoin{display:none;}
         
         .main-menu-scrolled{
@@ -484,17 +492,21 @@ article#page, article#post{
                 margin: -10px 13px -22px 0px !important;
             }
             .main-menu-scrolled .nav-header {
-                margin: 3px auto auto 0;
+                margin: 3px auto auto 0 !important;
             }
         
     .splash{
-        border-radius: 0;
+        /*border-radius: 0;*/
+        margin: 0 auto;
     }   
+    .header{
+        margin: 106px auto 0;
+    }
     svg.hero-circle{
         z-index: -1;
     }
     .slogan .pure-button{
-        width: 117px;
+        width: 113px;
         float: left;
     }
         #appBtnText, #appMblText{
@@ -505,8 +517,23 @@ article#page, article#post{
         }
     .our-perspective{
         padding: 39px;
-        width: 77%;
+        /*border-radius:0;*/
+        background: rgba(0, 14, 31, 0.24) url(https://65795cba5d013a6557873bd356fe86349be05630.googledrive.com/host/0B9LVk4xbDIJTYkpMcW15MlVkOHc) 0 !important;
     }
+    
+    .clients{
+        padding: 55px 0;
+    }
+        .clients ul{
+            margin: auto;
+            padding: 0;
+        }
+            .clients li{
+                width: 100%;
+            }
+        .clients img{
+            margin: 13px auto;
+        }
         
 
     .design-content .pure-g-r{
@@ -539,7 +566,7 @@ article#page, article#post{
             }
         
         .ryan svg{
-            height: 377px;
+            height: 337px;
         }
             #ryan-picture{
                 y: -333px;
@@ -553,5 +580,27 @@ article#page, article#post{
                 width: 88%;
                 padding: 33px;
             }
+        
+    .about-mike{
+        width: 82%;
+        position: relative;
+        padding: 39px;
+        margin-top: 0;
+    }    
+    .mike svg{
+        width: 487px;
+        height: 375px;
+        margin: auto;
+    }
+        #mike-picture{
+            x: -27px;
+        }
+            
+    .footer-ribbon h2{
+        font-size: 19px;
+    }
+    .footer-ribbon{
+        width: initial;
+    }
     
 }

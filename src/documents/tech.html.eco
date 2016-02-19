@@ -27,14 +27,13 @@ pageOrder: 1
     <div class="mike pure-g-r">
         <div class="pure-u-2-3">
 
-            <svg height="666" width="100%">
+            <svg>
                 <defs>
                     <pattern id="mike-picture" x="-39" y="0" patternUnits="userSpaceOnUse" height="100%" width="100%">
                         <image width="100%" height="100%" x="0" y="0" xlink:href="https://4e2c2ec51967540e8b406a60cba8ff793db4e6dc.googledrive.com/host/0B9LVk4xbDIJTc0MzVjJrM2F4bmc"></image>
                     </pattern>
                 </defs>
                 <circle cx="39%" cy="50%" r="222" fill="url(#mike-picture)" />
-                <rect x="22%" y="37%" fill="url(#ryan-ally-image)" />
             </svg>
             
         </div>
