@@ -14,12 +14,6 @@ pageOrder: 1
     .we-bitcoin{display: none;}
     .logo-link img{width: 87px;}
     .nav-header{margin: 13px auto auto 173px;}
-    #Stage {
-        margin: -47px auto auto -37%;
-        height: 1001px !important;    
-        transform: scale(0.593343) !important;
-        background-color: transparent !important;
-    }
 </style>
 
 <%- @partial('tech-animation') %>

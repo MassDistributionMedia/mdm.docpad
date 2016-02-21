@@ -357,16 +357,20 @@ article#page, article#post{
             .blue-tinted image {
               filter: url(#blue-tint);
             }
-            .creatives .about-ryan, .about-mike{
+            .creatives .about-ryan{
                 float: right;
                 margin: 125px auto auto -14%;
                 position: absolute;
             }
                 .about-mike{
+                    margin: 125px auto 111px -14%;
+                    position: relative;
                     margin-top:107px;
                 }
-            .mike svg{
-                margin: auto auto auto -7%;
+            .mike svg{    
+                height: 458px;
+                width: 614px;
+                margin: 111px auto auto;
             }
             .ryan .pure-u-2-3, .mike .pure-u-2-3{
                 margin-bottom: -8px;
@@ -475,8 +479,15 @@ article#page, article#post{
         margin: 20px auto auto !important;
         padding: 13px;
     }
-    #Stage{
-        margin: -60px auto auto -20%;
+    .EDGE-73945849{
+        margin: -47px auto auto -37% !important;
+        height: 1001px !important;    
+        transform: scale(0.593343) !important;
+        background-color: transparent !important;
+    }
+    .EDGE-37101967{
+        margin: -59px auto auto -51px !important;
+        transform: scale(0.69) !important;
     }
     .logo-link{ margin: -3px 13px -22px 0px !important;}
         .logo-link img{
@@ -582,27 +593,31 @@ article#page, article#post{
             width: 333px;
             margin: 77px auto auto;
         }
-            .ryan svg circle{
-                r: 166;
-            }
-            #ryan-picture{
-                y: -333px;
-            }
-            .creatives.pure-u-1{
-                margin-top: -35px;
-            }
+            .ryan svg circle{r: 166;}
+            #ryan-picture{y: -333px;}
+            .creatives.pure-u-1{margin-top: -35px;}
             .creatives .about-ryan{
                 margin: auto;
                 position: static;
                 width: 88%;
                 padding: 33px;
             }
+        .emily .pure-u-2-3{width: 100%;}
+        .emily svg{
+            width: 381px;
+            height: 314px;
+        }
+        #emily-shape image{width: 535px;}
+        .emily-shape{
+            width: 83%;
+            height: 555px;
+        }
         
     .about-mike{
         width: 82%;
         position: relative;
         padding: 13px 33px 39px;
-        margin-top: 0;
+        margin: auto;
     }    
     .mike svg{
         width: 432px;

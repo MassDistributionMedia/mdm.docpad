@@ -17,9 +17,6 @@ pageOrder: 2
       overflow: none;
       left: -100%;
     }
-    #Stage{
-        transform: scale(0.69) !important;
-    }
 </style>
 
 <svg class="svg-defs">
@@ -103,9 +100,9 @@ pageOrder: 2
     <div class="emily pure-g-r">
         <div class="pure-u-2-3">
     
-            <svg height="530" width="100%">
+            <svg height="523" width="100%">
                 <defs>
-                    <pattern id="emily-shape" x="-64" y="-534" patternUnits="userSpaceOnUse" height="100%" width="100%">
+                    <pattern id="emily-shape" x="-64" y="0" patternUnits="userSpaceOnUse" height="100%" width="100%">
                         <image width="109%" height="100%" x="0" y="0" xlink:href="https://3cda4be9be85b8e4bc95d9f34813bab6f44888ef.googledrive.com/host/0B9LVk4xbDIJTdENCcWF0ZEY3aXM"></image>
                     </pattern>
                 </defs>
