@@ -42,7 +42,6 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css"
-				"//fonts.googleapis.com/css?family=Julius+Sans+One"
 				"//fonts.googleapis.com/css?family=Open+Sans"
 				"//fonts.googleapis.com/icon?family=Material+Icons"
 				"/styles/style.css"
@@ -50,9 +49,9 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+				# "//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
 				"/scripts/script.js"
-				"//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
+				# "//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
 			]
 
 
