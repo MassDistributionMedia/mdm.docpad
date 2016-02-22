@@ -477,7 +477,7 @@ footer {
         margin: auto 5px auto auto;
     }
 
-/* Portrait and Landscape */
+/* Mobile: Portrait and Landscape */
 @media screen and (max-height: 640px) {
     body{
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#96b0c7+0,002c41+100 */
