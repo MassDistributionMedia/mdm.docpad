@@ -419,7 +419,6 @@ article#page, article#post{
             }
         
 .ribbon {
-    background: #eee;
     text-align: center;
     padding: 2em;
     color: #999;
@@ -447,7 +446,7 @@ article#page, article#post{
     border-radius: 0;
 }
 
-.footer {
+footer {
     /*background: rgb(11, 9, 58);*/
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000e1e+0,002c41+100 */
     background: rgb(0,14,30); /* Old browsers */
@@ -461,16 +460,34 @@ article#page, article#post{
     text-align: center;
     font-size: 80%;
     width: 100%;
-}
-    .footer p{
-        margin: 99px auto 0;
     }
-    .footer a{
+    footer p{
+        margin:66px auto 0;
+    }
+    footer a{
         color:#F4F4F9;
+    }
+    .footer-icons{
+        width:100%;
+        display:block;
+        margin: 5px auto auto;
+    }
+    .github-icon, .facebook-icon{
+        fill: #9AAFD2;
+        margin: auto 5px auto auto;
     }
 
 /* Portrait and Landscape */
 @media screen and (max-height: 640px) {
+    body{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#96b0c7+0,002c41+100 */
+        background: rgb(150,176,199); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(150,176,199,1) 0%, rgba(0,44,65,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(150,176,199,1) 0%,rgba(0,44,65,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(150,176,199,1) 0%,rgba(0,44,65,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96b0c7', endColorstr='#002c41',GradientType=0 ); /* IE6-9 */
+
+    }
     .content .content-ribbon{
         /*border-radius:0;*/
     }
@@ -512,6 +529,12 @@ article#page, article#post{
     .splash{
         /*border-radius: 0;*/
         margin: 77px auto;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#52748d+0,002c41+100 */
+        background: rgb(82,116,141); /* Old browsers */
+        background: -moz-radial-gradient(center, ellipse cover,  rgba(82,116,141,1) 0%, rgba(0,44,65,1) 100%); /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover,  rgba(82,116,141,1) 0%,rgba(0,44,65,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center,  rgba(82,116,141,1) 0%,rgba(0,44,65,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52748d', endColorstr='#002c41',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     }
     svg.hero-circle{
         z-index: -1;
@@ -535,7 +558,13 @@ article#page, article#post{
     .our-perspective{
         padding: 23px;
         /*border-radius:0;*/
-        background: rgba(0, 14, 31, 0.24) url(https://65795cba5d013a6557873bd356fe86349be05630.googledrive.com/host/0B9LVk4xbDIJTYkpMcW15MlVkOHc) 0 !important;
+        /*background: rgb(162, 194, 234) !important;*/
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,deeefe+100 */
+        background: rgb(255,255,255) !important; /* Old browsers */
+        background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(222,238,254,1) 100%) !important; /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(222,238,254,1) 100%) !important; /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(222,238,254,1) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#deeefe',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
     }
     
     .clients{
@@ -557,7 +586,7 @@ article#page, article#post{
             }
         
     .design-content{
-        margin: 354px auto auto;
+        margin: 388px auto auto;
         padding:0;
     }
     .design-content .pure-g-r{
@@ -631,6 +660,17 @@ article#page, article#post{
         #mike-picture{
             x: -27px;
         }
+        
+    .Pricing h1{font-size: 19px;}
+        .Pricing h3{font-size: 14px;}
+        .Pricing iframe{
+            position: absolute;
+            left: 0;
+        }
+        .Pricing .content.pure-g-r{
+            margin: 77px auto auto !important;
+        }
+        .Pricing footer{margin: 666px auto auto auto;}
             
     .footer-ribbon h2{
         font-size: 15px;
@@ -639,4 +679,17 @@ article#page, article#post{
         width: initial;
     }
     
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      
+      .nav-header{width: 262px;}
+      .logo-link{padding: 0 !important;}
+
 }

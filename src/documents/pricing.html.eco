@@ -1,7 +1,7 @@
 ---
-title: Tech
+title: Pricing
 layout: default
-tags: ['tech','privacy']
+tags: ['pricing','page']
 ---
 
 <style>
@@ -9,9 +9,21 @@ tags: ['tech','privacy']
         min-height: 1111px;
         margin: 202px 77px auto;
     }
+    .popout-icon{
+        width: 13px;
+        fill: #005EAC;
+        vertical-align: top;
+    }
+    h3{margin-bottom:0;padding-bottom:0;}
+    a{color: #005EAC;}
 </style>
 
 <h1>Transparent Standard Price Guide</h1>
 <h3>The following embedded sheet lists prices for New York City, USA</h3>
+<sub>
+    Open the price guide in it's own tab <a href="http://goo.gl/5bZBZ">http://goo.gl/5bZBZ <%- @partial('popout-link') %></a>
+</sub>
+
+<br/><br/>
 
 <iframe width="100%" height="555" style="border:0" src="https://docs.google.com/spreadsheets/d/1B0SEFWINx36GDhBzs7B0-WtA-mfC3AKXWLuRMRw5Oag/pubhtml?widget=true&amp;headers=false"></iframe>
