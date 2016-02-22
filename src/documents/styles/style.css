@@ -137,7 +137,7 @@ a{
     .slogan h2{
         font-weight: 200;
         line-height: 53px;
-        margin-bottom: 20px;
+        margin: 55px auto 20px;
     }
 
 .splash-btn-icon{
@@ -496,6 +496,7 @@ footer {
         margin: 20px auto auto !important;
         padding: 13px;
     }
+    .slogan h2{margin:20px auto;
     .EDGE-73945849{
         margin: -47px auto auto -37% !important;
         height: 1001px !important;    
