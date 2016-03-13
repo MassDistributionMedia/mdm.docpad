@@ -34,8 +34,11 @@
 	    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"https://mdm.cc/privacy.html","theme":"dark-bottom"};
 	</script>
 	
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js" async="async"></script>
 	<!-- End Cookie Consent plugin -->
+	
+	<!-- SumoMe List plugin, used until MailChimp email verifies. -->
+	<script src="//load.sumome.com/" data-sumo-site-id="3dbb71c19487ba136d100a2bb2a6bc66594e2b9234d7850e1ec5af6ccb9efe5a" async="async"> </script>
 
 </head>
 <body class="<%= @document.title %>">
@@ -46,17 +49,14 @@
 		<a class="pure-menu-heading logo-link" href="/"><img src="https://02c65c156864a52e0c93a0b425ca4d628a19de22.googledrive.com/host/0B9LVk4xbDIJTaGlISERER2Z0cnc" alt="MDM blue icon logo"/></a>
 
 		<ul class="nav-header">
-			<!-- <li class="pure-menu-selected"><a href="/">Home</a></li> -->
 			<li><a href="/tech.html">Tech</a></li>
 			<li><a href="/design.html">Design</a></li>
 			<li><a href="/pricing.html">Pricing</a></li>
-			<!--<li><a href="/pages/posts.html">Blog</a></li>-->
-			<!--<% for document in @getCollection('pages').toJSON(): %>
-				<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
-					<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
-				</li>
-			<% end %>-->
+
 		</ul>
+		<span>
+			<a class="contact-btn pure-button" href="/contact.html">Contact MDM</a>
+		</span>
 		<span class="we-bitcoin">
 			<span class="accept-li">
 				<sub class="accept-b">We accept bitcoin.</sub>
@@ -77,6 +77,7 @@
 	<p>
 		<a href="/privacy.html">Privacy</a>
 		<span class="footer-icons">
+			<a title="Contact MDM" href="/contact.html"><%- @partial('email-11') %></a>
 			<a title="MDM GitHub" href="https://github.com/MassDistributionMedia"><%- @partial('github-icon') %></a>
 			<a title="MDM Facebook" href="https://www.facebook.com/MassDistributionMedia/?fref=ts"><%- @partial('facebook-icon') %></a>
 		</span>

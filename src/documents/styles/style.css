@@ -33,15 +33,20 @@ a{
     transition: 0.333s;
     margin: 73px auto auto 173px;
 }
+    .contact-btn{
+        display: none;
+        float: right;
+        background: #C12D47;
+        margin: auto 83px auto auto;
+    }
+    a.contact-btn:hover{
+        color: #fff !important;
+    }
     .main-menu-scrolled{
         background: url(https://745ee71aa6c1f4da35d12eaf0110b243e8cd44c8.googledrive.com/host/0B9LVk4xbDIJTdGwyWGEwcmhRcFU) 0 97px;
         border-bottom: 7px solid #005EAC !important;
         height: 93px;
     }
-        .main-menu-scrolled ul.nav-header li{
-            /*border-bottom-left-radius: 3px;*/
-            /*border-bottom-right-radius: 3px;*/
-        }
         .main-menu-scrolled .nav-header{
             margin: 14px auto auto 173px;
         }
@@ -49,11 +54,12 @@ a{
             margin: -20px 13px -22px 90px !important;
         }
         .main-menu-scrolled .we-bitcoin{
-            top: 30px;
-            color: #fff;
+            /*top: 30px;*/
+            /*color: #fff;*/
+            display: none;
         }
-        .main-menu-scrolled .bitcoin-icon{
-            fill: #A3B7DE;
+        .main-menu-scrolled .contact-btn{
+            display: block;
         }
     svg.hero-circle{
         position: absolute;
@@ -472,7 +478,7 @@ footer {
         display:block;
         margin: 5px auto auto;
     }
-    .github-icon, .facebook-icon{
+    .github-icon, .facebook-icon, .email-11-icon{
         fill: #9AAFD2;
         margin: auto 5px auto auto;
     }
