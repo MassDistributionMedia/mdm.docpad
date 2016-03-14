@@ -502,7 +502,7 @@ footer {
         margin: 20px auto auto !important;
         padding: 13px;
     }
-    .slogan h2{margin:20px auto;
+    .slogan h2{margin:20px auto;}
     .EDGE-73945849{
         margin: -47px auto auto -37% !important;
         height: 1001px !important;    
@@ -513,6 +513,7 @@ footer {
         margin: -59px auto auto -51px !important;
         transform: scale(0.69) !important;
     }
+    .contact-btn{margin: 5px auto auto;}
     .logo-link{ margin: -3px 13px -22px 0px !important;}
         .logo-link img{
             margin: 7px 0 0 0;
