@@ -18,7 +18,7 @@ id="star-icon" points="256,60.082 304.63,209.75 462,209.75 334.686,302.25 383.31
                 <div class="pure-u-2-3 white-font slogan">
                     <h2>New age web platforms for </h2>
                     <span class="slogan-buttons">
-                        <a id="appBtn" class="pure-button" href="#clients"><i class="material-icons">&#xE548;</i> <span id="appBtnText">Health</span></a>
+                        <a id="appBtn" class="pure-button" href="#clients"><i class="material-icons">settings</i> <span id="appBtnText">Tech</span></a>
                         <a id="mblBtn" class="pure-button" href="#clients"> <i class="material-icons">&#xE3E4;</i> <span id="appMblText">Space</span> </a>
                     </span>
                 </div>
@@ -41,7 +41,7 @@ id="star-icon" points="256,60.082 304.63,209.75 462,209.75 334.686,302.25 383.31
                 <p>
                     <ul>
                         <li>
-                            In business two or more people exchange value.
+                            In business, two or more people exchange value.
                         </li>
                         <li>
                             This exchange is aimed to better their lives. 
@@ -64,32 +64,32 @@ id="star-icon" points="256,60.082 304.63,209.75 462,209.75 334.686,302.25 383.31
                 <ul>
                     <li>
                         <!--<a title="Arkivum" href="https://massdistributionmedia.github.io/arkivum.docpad/">-->
-                            <img class="arkivum" src="https://88166f4aaf5da8a704b00d093044e2824dc5a5d8.googledrive.com/host/0B9LVk4xbDIJTZ3lkWm15bmJfdms" alt="arkivum"/>
+                            <img class="arkivum" src="./images/Arkivum-Logo-plus-strapline_white.png" alt="arkivum"/>
                         <!--</a>-->
                     </li>
                     <li>
                         <a title="Solar System Express" href="http://www.solarsystemexpress.com/">
-                            <img class="solx" src="https://d3bbb30bea8425002a709c49dc232c8ffd680f68.googledrive.com/host/0B6r88rAVAb7RUFJiOWZ1VktfaGM/sselogo_2-tone.png" alt="Solar System Express"/>
+                            <img class="solx" src="./images/sselogo_2-tone.png" alt="Solar System Express"/>
                         </a>
                     </li>
                     <li>
                         <a title="StarDog Semantic Database" href="http://docs.stardog.com/">
-                            <img src="https://f7735ab0b96cab6b81a52256161fb025d5f34033.googledrive.com/host/0B9LVk4xbDIJTYmJDU1RIMFlVOUU" alt="Star Dog Database"/>
+                            <img src="./images/stardog_logo-blue.png" alt="Star Dog Database"/>
                         </a>
                     </li>
                     <li>
                         <a title="NewSpace NYC" href="https://newspace.nyc">
-                            <img class="newspace" src="https://e01664e04f761a953c177fc6c099b54b4a0ab988.googledrive.com/host/0B9LVk4xbDIJTRmwzeHdZZERtOGM/new-newspacenyc_logo.svg" alt="NewSpace NYC"/>
+                            <img class="newspace" src="./images/new-newspacenyc_logo.png" alt="NewSpace NYC"/>
                         </a>
                     </li>
                     <li>
                         <a title="PongSat Parts" href="http://www.pongsatparts.com/">
-                            <img src="https://abd7fa0b807c5695f48fab84701d72e589f7aff2.googledrive.com/host/0B6r88rAVAb7RTTE3alBNd3JPZ1E" alt="PongSat Parts"/>
+                            <img src="./images/pongsat-parts_icon-logo.png" alt="PongSat Parts"/>
                         </a>
                     </li>
                     <li>
                         <a title="Viraloid" href="https://mikeumus.github.io/viraloid.docpad/">
-                            <img class="viraloid" src="https://f1cffcba77d02cec8a067e72a878695842498089.googledrive.com/host/0B92YJK5CJQemNHdJYksyZXBTekk/logo.png" alt="Viraloid app logo"/>
+                            <img class="viraloid" src="./images/viraloid-logo.png" alt="Viraloid app logo"/>
                         </a>
                     </li>
                 </ul>

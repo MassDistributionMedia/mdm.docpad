@@ -65,15 +65,15 @@ pageOrder: 2
 </div>
 <div class="creatives pure-u-1">
     <div class="ryan pure-g-r">
-        <div class="pure-u-2-3">
+        <div class="pure-u-2-3 pure-u-sm-1">
 
             <svg height="666" width="100%">
                 <defs>
                     <pattern class="blue-tinted" id="ryan-ally-image" x="0" y="0" patternUnits="userSpaceOnUse" height="100%" width="100%">
-                        <image width="100%" height="100%" x="0" y="190" xlink:href="https://c3125f8fd12857977050412ec30b373c34a64e93.googledrive.com/host/0B9LVk4xbDIJTY1ZFVWhMNkMxakk"></image>
+                        <image width="100%" height="100%" x="0" y="190" xlink:href="./images/ryan-krukowski.jpg"></image>
                     </pattern>
                     <pattern id="ryan-picture" x="-39" y="0" patternUnits="userSpaceOnUse" height="100%" width="100%">
-                        <image width="100%" height="100%" x="0" y="0" xlink:href="https://b597e52628970841883d5e7e46354d4ebcb9722a.googledrive.com/host/0B9LVk4xbDIJTX2hxSXREeTJWSEE"></image>
+                        <image width="100%" height="100%" x="0" y="0" xlink:href="./images/ryan_krukowski-2.jpg"></image>
                     </pattern>
                 </defs>
                 <circle cx="39%" cy="50%" r="222" fill="url(#ryan-picture)" />
@@ -81,7 +81,7 @@ pageOrder: 2
             </svg>
             
         </div>
-        <div class="pure-u-2-5 about-ryan">
+        <div class="pure-u-2-5 pure-u-sm-1 about-ryan">
             <h3>Meet MDM's Creative Director, Ryan Krukowski.</h3>
             <p>
                 Born in New Brunswick, NJ, Ryan Krukowski is an acclaimed New York City based
@@ -98,19 +98,20 @@ pageOrder: 2
         </div>
     </div>
     <div class="emily pure-g-r">
-        <div class="pure-u-2-3">
+        <div class="pure-u-2-3 pure-u-sm-1">
     
-            <svg height="523" width="100%">
-                <defs>
-                    <pattern id="emily-shape" x="-64" y="0" patternUnits="userSpaceOnUse" height="100%" width="100%">
-                        <image width="109%" height="100%" x="0" y="0" xlink:href="https://3cda4be9be85b8e4bc95d9f34813bab6f44888ef.googledrive.com/host/0B9LVk4xbDIJTdENCcWF0ZEY3aXM"></image>
-                    </pattern>
-                </defs>
-                <rect class="emily-shape" x="0" y="0" fill="url(#emily-shape)" />
-            </svg>
+            <img src="./images/Emily-Portrait.svg" alt="Emily Kill art portrait" />
+            <!--<svg height="523" width="100%">-->
+            <!--    <defs>-->
+            <!--        <pattern id="emily-shape" x="-64" y="0" patternUnits="userSpaceOnUse" height="100%" width="100%">-->
+            <!--            <image width="109%" height="100%" x="0" y="0" xlink:href="./images/Emily-Portrait.svg"></image>-->
+            <!--        </pattern>-->
+            <!--    </defs>-->
+            <!--    <rect class="emily-shape" x="0" y="0" fill="url(#emily-shape)" />-->
+            <!--</svg>-->
             
         </div>
-        <div class="pure-u-2-5 about-ryan">
+        <div class="pure-u-2-5 pure-u-sm-1 about-ryan">
             <h3>MDM's Lead Digital Artist, Emily Kil.</h3>
             <p>
                 Digital graphic designer of 10 years, Emily is truly an artist. She's done work for 

@@ -44,13 +44,13 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css"
 				"//fonts.googleapis.com/css?family=Open+Sans"
 				"//fonts.googleapis.com/icon?family=Material+Icons"
-				"/styles/style.css"
+				"styles/style.css"
 			]
 
 			# Scripts
 			scripts: [
 				# "//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-				"/scripts/script.js"
+				"scripts/script.js"
 				# "//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
 			]
 

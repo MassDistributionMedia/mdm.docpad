@@ -20,11 +20,14 @@ body {
     overflow-x:hidden;
     line-height: 1.7em;
     font-family: 'Open Sans', sans-serif;
-    background:rgb(0, 13, 30) url(https://745ee71aa6c1f4da35d12eaf0110b243e8cd44c8.googledrive.com/host/0B9LVk4xbDIJTdGwyWGEwcmhRcFU) no-repeat;
+    background:rgb(0, 13, 30) url(./../images/blue_white_mountains-web2.jpg) no-repeat;
 }
 a{
     color: orange;
     text-decoration: none;
+}
+.mdm-blue-circle-logo {
+    height: 122px;
 }
 #Stage{
     margin-top: -27px;
@@ -43,7 +46,7 @@ a{
         color: #fff !important;
     }
     .main-menu-scrolled{
-        background: url(https://745ee71aa6c1f4da35d12eaf0110b243e8cd44c8.googledrive.com/host/0B9LVk4xbDIJTdGwyWGEwcmhRcFU) 0 97px;
+        background: url(./../images/blue_white_mountains-web2.jpg) 0 97px;
         border-bottom: 7px solid #005EAC !important;
         height: 93px;
     }
@@ -162,7 +165,7 @@ a{
 
     #appBtn i{
         font-size: 29px;
-        color: red;
+        color: #425866;
     }
     #appBtnIcon{
         background-size: 114%;
@@ -170,7 +173,7 @@ a{
         background-image: url(/icons/iconmonstr-window-apps-icon.svg);
     }
     #appBtnText{
-        color: red;
+        color: #012339;
     }
 
 #mblBtn{
@@ -249,7 +252,7 @@ body .primary-button {
     height: 251px;
     padding: 3em 0;
     border-radius: 13px;
-    background: #005EAC url(https://3b1014479e60a166ba9ba71bdea37b36463bf4d9.googledrive.com/host/0B9LVk4xbDIJTZ0FUbXk0a1hjcHM) bottom no-repeat;
+    background: #005EAC url(./../images/blue_white_mountains-web2.jpg) bottom no-repeat;
     margin: 109px auto 0;
 }
     .splash .splash-head {
@@ -321,7 +324,7 @@ article#page, article#post{
         /*border: 3px solid rgba(0, 94, 172, 1);*/
     }
     .our-perspective{
-        color: #00549A;
+        color: #cecdcb;
         padding: 33px 111px 33px 77px;
         background: rgb(0, 14, 31);
         background: rgba(0, 14, 31, 0.24) url(https://65795cba5d013a6557873bd356fe86349be05630.googledrive.com/host/0B9LVk4xbDIJTYkpMcW15MlVkOHc) 133px -129px !important;
