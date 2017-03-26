@@ -1,0 +1,706 @@
+::-webkit-scrollbar {
+    width: 17px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #fff;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); 
+    border-radius: 2px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #66879B;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); 
+}
+
+body {
+    color: #fff;
+    margin: 0 auto;
+    overflow-x:hidden;
+    line-height: 1.7em;
+    font-family: 'Open Sans', sans-serif;
+    background:rgb(0, 13, 30) url(./../images/blue_white_mountains-web2.jpg) no-repeat;
+}
+a{
+    color: orange;
+    text-decoration: none;
+}
+.mdm-blue-circle-logo {
+    height: 122px;
+}
+#Stage{
+    margin-top: -27px;
+}
+.nav-header{
+    transition: 0.333s;
+    margin: 73px auto auto 173px;
+}
+    .contact-btn{
+        display: none;
+        float: right;
+        background: #C12D47;
+        margin: auto 83px auto auto;
+    }
+    a.contact-btn:hover{
+        color: #fff !important;
+    }
+    .main-menu-scrolled{
+        background: url(./../images/blue_white_mountains-web2.jpg) 0 97px;
+        border-bottom: 7px solid #005EAC !important;
+        height: 93px;
+    }
+        .main-menu-scrolled .nav-header{
+            margin: 14px auto auto 173px;
+        }
+        .main-menu-scrolled .logo-link{
+            margin: -20px 13px -22px 90px !important;
+        }
+        .main-menu-scrolled .we-bitcoin{
+            /*top: 30px;*/
+            /*color: #fff;*/
+            display: none;
+        }
+        .main-menu-scrolled .contact-btn{
+            display: block;
+        }
+    svg.hero-circle{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    svg.hero-circle circle{
+        fill: rgba(255, 255, 255, 0.21);
+    }
+
+.muted{
+    opacity: 0.7;
+}
+
+.logo-link{
+    margin: -3px 13px -22px 90px !important;
+    height: 90px !important;
+    padding: 5px 12px !important;
+    float: left;
+}
+    .logo-link img{
+        margin: 18px 0 0 0;
+        width: 134px;
+        /* background: #fff;
+        border-radius: 66px; */
+    }
+
+#stageOne{
+    z-index:2;
+    margin: -94px -111px 0 630px;
+    position: absolute !important;
+}
+    .Stage_Text2_id, #Stage_webAppTab_Text2Copy{
+        top:-2px !important;
+    }
+
+    #Stage_website_urlText, #Stage_app_urlText{
+        top:3px !important;
+    }
+    #stageTwo{
+        margin: -25px 0 0 -3px;
+    }
+
+.pira-rib{
+    height: 248px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.white-font{
+    color: #fff !important;
+}
+
+.slogan{
+    margin: auto;
+    display: block;
+    font-size: 25px;
+    line-height: 38px;
+    text-align:center;
+}
+
+    .slogan-buttons{
+        margin: -10px auto auto auto;
+        display: block;
+    }
+    .slogan .pure-button{
+        border-radius: 13px;
+        margin: auto 3px auto 9px;
+        padding: .4em 1.4em .3em .7em;
+        height: 51px;
+        width: 150px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .slogan h2{
+        font-weight: 200;
+        line-height: 53px;
+        margin: 55px auto 20px;
+    }
+
+.splash-btn-icon{
+    position: absolute;
+    margin: 4px 0 0 -24px;
+    width: 30px;
+    height: 30px;
+    background-color: #005EAC;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-position: 0px 0px;
+    background-repeat:no-repeat;
+    display: block;
+    clear: none;
+    box-shadow: -1px -1px rgba(0,0,0,0.1);
+}
+
+    #appBtn i{
+        font-size: 29px;
+        color: #425866;
+    }
+    #appBtnIcon{
+        background-size: 114%;
+        -webkit-background-size: 114%;
+        background-image: url(/icons/iconmonstr-window-apps-icon.svg);
+    }
+    #appBtnText{
+        color: #012339;
+    }
+
+#mblBtn{
+    position: relative;
+    z-index: 2;
+    color: purple;
+    /*border: 2px solid #0078e7;*/
+}
+#mblBtnIcon{
+    background-size: 115%;
+    -webkit-background-size: 115%;
+    background-image: url(/icons/iconmonstr-mobile-phone-5-icon.svg);
+}
+
+#appBtnText, #appMblText{
+    line-height: 28px;
+    margin: 0 -18px 0 1px;
+    vertical-align: top;
+}
+#main-menu{ 
+	transition: 0.333s;
+	-webkit-transition: 0.333s;
+}
+.pure-menu.pure-menu-open.pure-menu-fixed{border-bottom:0;}
+.pure-menu-fixed{left:auto;}
+
+.l-box {
+    padding: 1em;
+}
+
+.header {
+    text-align: center;
+}
+
+    .header .pure-menu {
+        padding: 0.5em;
+    }
+
+        .header .pure-menu a{
+            color: #E7EFF5;
+        }
+
+        .header .pure-menu .pure-menu-selected a, .header .pure-menu a:hover{
+            color: #005EAC !important;
+        }
+
+        .header .pure-menu li{
+            /*border-radius: 3px;*/
+            /*border: 1px solid rgba(0, 94, 172, 0.07);*/
+            display: inline-block;
+            padding: 13px 33px;
+            float: left;
+            margin: auto 3px auto;
+            /*border-bottom-left-radius: 0;*/
+            /*border-bottom-right-radius: 0;*/
+        }
+
+        .header .pure-menu li:hover,
+        .header .pure-menu li:focus {
+            /*background: none;*/
+            color: #aaa;
+            /*border: 1px solid rgba(0, 94, 172, 1);*/
+        }
+
+        .header .pure-menu li a:active{
+            color: #000 !important;
+            border: 1px solid rgba(0, 0, 0, 1);
+        }
+
+body .primary-button {
+    background: #02a6eb;
+    color: #fff;
+}
+
+.splash {
+    height: 251px;
+    padding: 3em 0;
+    border-radius: 13px;
+    background: #005EAC url(./../images/blue_white_mountains-web2.jpg) bottom no-repeat;
+    margin: 109px auto 0;
+}
+    .splash .splash-head {
+        font-size: 300%;
+        margin: 0em 0;
+        line-height: 1.2em;
+    }
+    .splash .splash-subhead {
+        color: #999;
+        font-weight: 300;
+        line-height: 1.4em;
+    }
+    .splash .primary-button {
+        font-size: 150%;
+    }
+
+.splash-circle{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.accept-li{
+    border: none !important;
+}
+.we-bitcoin{
+    margin: auto auto auto 51px;
+    border: none !important;
+    color: #005EAC;
+    position:fixed;
+    right: 17%;
+    top: 60px;
+}
+    .bitcoin{
+        width: 45px;
+        border: none !important;
+        margin: -8px 0 0 10px;
+        position: absolute;
+     }
+        .bitcoin-icon{
+            height: 44px;
+            fill: #005EAC;
+        }
+
+article#page, article#post{
+    min-height: 1111px;
+    margin: 202px 77px auto;
+}
+
+.content{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+    .content .content-subhead {
+        color: #fff;
+        padding: 0.4em .8em 0.2em;
+        text-transform: uppercase;
+        margin: 8px 0 0 0px;
+        border-bottom: 1px solid #005EAC;
+        display: block;
+        width: 665px;
+    }
+    .content .content-ribbon {
+        margin: 3em 0;
+        border-radius: 13px;
+        background: rgba(0, 14, 31, 0.24);
+        /*border: 3px solid rgba(0, 94, 172, 1);*/
+    }
+    .our-perspective{
+        color: #cecdcb;
+        padding: 33px 111px 33px 77px;
+        background: rgb(0, 14, 31);
+        background: rgba(0, 14, 31, 0.24) url(https://65795cba5d013a6557873bd356fe86349be05630.googledrive.com/host/0B9LVk4xbDIJTYkpMcW15MlVkOHc) 133px -129px !important;
+    }
+    .design-content{
+        padding: 111px 33px;
+    }
+        .design-content .pure-g-r{
+            position: relative;
+        }
+        .design-content .pure-u-1-4{
+            float: left;
+            text-align: center;
+            line-height: 33px;
+            display: inline-block;
+            margin: 3%;
+        }
+        .design-content .pure-u-3-5{
+            margin: 2.7% -3% auto auto;
+            text-align: right;
+            display: inline-block;
+        }
+        .design-content svg{
+            transform: rotate(39deg);
+            position: absolute;
+            z-index: -1;
+            top: -179px;
+            left: -253px;
+        }
+        .design-content svg rect{
+            width:100%; height:666px;
+            fill: url(#dark-blue-gradient);
+        }
+        .creatives .ryan rect{
+            width: 68%;
+            height: 43%;
+            transform: rotate(39deg);
+        }
+            .blue-tinted image {
+              filter: url(#blue-tint);
+            }
+            .creatives .about-ryan{
+                float: right;
+                margin: 125px auto auto -14%;
+                position: absolute;
+            }
+                .about-mike{
+                    margin: 125px auto 111px -14%;
+                    position: relative;
+                    margin-top:107px;
+                }
+            .mike svg{    
+                height: 458px;
+                width: 614px;
+                margin: 111px auto auto;
+            }
+            .ryan .pure-u-2-3, .mike .pure-u-2-3{
+                margin-bottom: -8px;
+            }
+            .emily .pure-u-2-3{
+                margin-bottom: -16px;
+            }
+            .emily-shape{
+                width: 679px;
+                height: 522px;
+            }
+        .clients{
+            padding: 55px;
+            color: #00549A;
+            text-align: center;
+            /*background: rgb(162, 194, 234) !important;*/
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,deeefe+100 */
+            background: rgb(255,255,255) !important; /* Old browsers */
+            background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(222,238,254,1) 100%) !important; /* FF3.6-15 */
+            background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(222,238,254,1) 100%) !important; /* Chrome10-25,Safari5.1-6 */
+            background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(222,238,254,1) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#deeefe',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
+
+        }
+        .clients li{
+            list-style: none;
+            display: inline-block;
+        }
+            .clients img{
+                /*width: 333px;*/
+                height:77px;
+                margin: 13px 33px;
+            }
+            .solx{
+                height: 91px !important;
+            }
+            .arkivum{
+                background: #0095CE;
+                padding: 13px 27px;
+                border-radius: 13px;
+            }
+            .viraloid{
+                background: #FF6228;
+                padding: 21px 23px;
+                border-radius: 13px;
+            }
+        
+.ribbon {
+    text-align: center;
+    padding: 2em;
+    color: #999;
+}
+    .ribbon h2 {
+        display: inline;
+        font-weight: normal;
+    }
+
+    .footer-ribbon{
+        width: 88%;
+        margin: auto;
+        color: #fff; /* #005EAC */
+        background: rgb(0, 14, 31);
+        background: rgba(0, 14, 31, 0.73);
+    }
+    .footer-ribbon h2{
+        opacity: 0.8;
+    }
+
+.tech-nature-slogan{
+    margin: 111px auto;
+    border-bottom: 3px solid #005EAC;
+    font-style: italic;
+    border-radius: 0;
+}
+
+footer {
+    /*background: rgb(11, 9, 58);*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000e1e+0,002c41+100 */
+    background: rgb(0,14,30); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(0,14,30,1) 0%, rgba(0,44,65,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,14,30,1) 0%,rgba(0,44,65,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,14,30,1) 0%,rgba(0,44,65,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000e1e', endColorstr='#002c41',GradientType=0 ); /* IE6-9 */
+
+    height: 202px;
+    color: #fff;
+    text-align: center;
+    font-size: 80%;
+    width: 100%;
+    }
+    footer p{
+        margin:66px auto 0;
+    }
+    footer a{
+        color:#F4F4F9;
+    }
+    .footer-icons{
+        width:100%;
+        display:block;
+        margin: 5px auto auto;
+    }
+    .github-icon, .facebook-icon, .email-11-icon{
+        fill: #9AAFD2;
+        margin: auto 5px auto auto;
+    }
+
+/* Mobile: Portrait and Landscape */
+@media screen and (max-height: 640px) {
+    body{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#96b0c7+0,002c41+100 */
+        background: rgb(150,176,199); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(150,176,199,1) 0%, rgba(0,44,65,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(150,176,199,1) 0%,rgba(0,44,65,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(150,176,199,1) 0%,rgba(0,44,65,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96b0c7', endColorstr='#002c41',GradientType=0 ); /* IE6-9 */
+
+    }
+    .content .content-ribbon{
+        /*border-radius:0;*/
+    }
+    .content.pure-g-r{
+        min-height: inherit !important;
+        margin: 20px auto auto !important;
+        padding: 13px;
+    }
+    .slogan h2{margin:20px auto;}
+    .EDGE-73945849{
+        margin: -47px auto auto -37% !important;
+        height: 1001px !important;    
+        transform: scale(0.593343) !important;
+        background-color: transparent !important;
+    }
+    .EDGE-37101967{
+        margin: -59px auto auto -51px !important;
+        transform: scale(0.69) !important;
+    }
+    .contact-btn{margin: 5px auto auto;}
+    .logo-link{ margin: -3px 13px -22px 0px !important;}
+        .logo-link img{
+            margin: 7px 0 0 0;
+            width: 74px;
+        }
+        .header .pure-menu li{padding: 3px 7px;}
+        .nav-header{margin: 33px auto auto 0 !important;}
+        .we-bitcoin{display:none;}
+        
+        .main-menu-scrolled{
+                height: 59px;
+                /*border-color: #FF008D;*/
+        }
+            .main-menu-scrolled .logo-link {
+                margin: -10px 13px -22px 0px !important;
+            }
+            .main-menu-scrolled .nav-header {
+                margin: 3px auto auto 0 !important;
+            }
+        
+    .splash{
+        /*border-radius: 0;*/
+        margin: 77px auto;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#52748d+0,002c41+100 */
+        background: rgb(82,116,141); /* Old browsers */
+        background: -moz-radial-gradient(center, ellipse cover,  rgba(82,116,141,1) 0%, rgba(0,44,65,1) 100%); /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover,  rgba(82,116,141,1) 0%,rgba(0,44,65,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center,  rgba(82,116,141,1) 0%,rgba(0,44,65,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52748d', endColorstr='#002c41',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+    svg.hero-circle{
+        z-index: -1;
+    }
+    .slogan{
+        width: 100%;
+    }
+    .slogan-buttons{
+        margin: -2px auto auto auto;
+    }
+    .slogan .pure-button{
+        width: 113px;
+        margin: auto;
+    }
+        #appBtnText, #appMblText{
+            font-size: 18px;
+        }
+        #appBtn i{
+            font-size: 23px;
+        }
+    .our-perspective{
+        padding: 23px;
+        /*border-radius:0;*/
+        /*background: rgb(162, 194, 234) !important;*/
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,deeefe+100 */
+        background: rgb(255,255,255) !important; /* Old browsers */
+        background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(222,238,254,1) 100%) !important; /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(222,238,254,1) 100%) !important; /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(222,238,254,1) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#deeefe',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
+    }
+    
+    .clients{
+        padding: 55px 0;
+    }
+        .clients ul{
+            margin: auto;
+            padding: 0;
+        }
+            .clients li{
+                width: 100%;
+            }
+            .clients img{
+                height: 66px;
+                margin: 13px auto;
+            }
+            .newspace{
+                height: 57px !important;
+            }
+        
+    .design-content{
+        margin: 388px auto auto;
+        padding:0;
+    }
+    .design-content .pure-g-r{
+        margin-top: -71px; 
+    }
+        .design-content svg{
+            transform: rotate(42deg);
+            top: -250px;
+            left: -189px;
+        }
+            .design-content svg rect{
+                height: 684px;
+            }
+        .design-content .pure-u-1-4{
+            margin: -99px auto auto;
+            text-align: left;
+            width: 113px;
+        }
+        .design-content .pure-u-1-4 h1{
+            font-size: 14px;
+            line-height: 19px;
+        }
+        .design-content .pure-u-3-5{
+            font-size: 15px;
+            margin: -44px 10px auto auto;
+            position: static;
+            float: right;
+            width: 256px;
+        }
+        
+        .ryan svg{
+            height: 337px;
+            width: 333px;
+            margin: 77px auto auto;
+        }
+            .ryan svg circle{r: 166;}
+            #ryan-picture{y: -333px;}
+            .creatives.pure-u-1{margin-top: -35px;}
+            .creatives .about-ryan{
+                margin: auto;
+                position: static;
+                width: 88%;
+                padding: 33px;
+            }
+        .emily .pure-u-2-3{width: 100%;}
+        .emily svg{
+            width: 381px;
+            height: 314px;
+        }
+        #emily-shape image{width: 535px;}
+        .emily-shape{
+            width: 83%;
+            height: 555px;
+        }
+        
+    .about-mike{
+        width: 82%;
+        position: relative;
+        padding: 13px 33px 39px;
+        margin: auto;
+    }    
+    .mike svg{
+        width: 432px;
+        height: 230px;
+        margin: auto;
+        position: relative;
+    }
+        .mike svg circle{
+            r:111;
+        }
+        #mike-picture{
+            x: -27px;
+        }
+        
+    .Pricing h1{font-size: 19px;}
+        .Pricing h3{font-size: 14px;}
+        .Pricing iframe{
+            position: absolute;
+            left: 0;
+        }
+        .Pricing .content.pure-g-r{
+            margin: 77px auto auto !important;
+        }
+        .Pricing footer{margin: 666px auto auto auto;}
+            
+    .footer-ribbon h2{
+        font-size: 15px;
+    }
+    .footer-ribbon{
+        width: initial;
+    }
+    
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      
+      .nav-header{width: 262px;}
+      .logo-link{padding: 0 !important;}
+
+}

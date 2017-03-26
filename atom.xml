@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Mass Distribution Media, Inc. </title>
+	<link href="https://mdm.cc/atom.xml" rel="self"/>
+	<link href="https://mdm.cc"/>
+	<updated>2017-03-26T04:44:08.598Z</updated>
+	<id>https://mdm.cc</id>
+	<author>
+		<name>Mass Distribution Media, Inc.</name>
+		<email>mike@mdm.cc</email>
+	</author>
+
+	
+		<entry>
+			<title>This is a Goodbye Blog Post</title>
+			<link href="https://mdm.cc//posts/bye.html"/>
+			<updated>2016-02-17T03:55:41.000Z</updated>
+			<id>https://mdm.cc//posts/bye.html</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Chrome, Firefox OS and Opera --&gt;
+	&lt;meta name=&quot;theme-color&quot; content=&quot;#005EAC&quot;&gt;
+	&lt;!-- Windows Phone --&gt;
+	&lt;meta name=&quot;msapplication-navbutton-color&quot; content=&quot;#005EAC&quot;&gt;
+	&lt;!-- iOS Safari --&gt;
+	&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;#005EAC&quot;&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Goodbye Blog Post | Mass Distribution Media, Inc. &lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;New Age Web Platforms for Selected Clients. &quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;MDM, Mass Distribution Media, docpad, custom websites for clients, East Coast&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Mass Distribution Media, Inc.&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.78.4&quot; /&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;//fonts.googleapis.com/css?family=Open+Sans&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;//fonts.googleapis.com/icon?family=Material+Icons&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
+	
+	&lt;!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent --&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+	    window.cookieconsent_options = {&quot;message&quot;:&quot;This website uses cookies to ensure you get the best experience on our website&quot;,&quot;dismiss&quot;:&quot;Got it!&quot;,&quot;learnMore&quot;:&quot;More info&quot;,&quot;link&quot;:&quot;https://mdm.cc/privacy.html&quot;,&quot;theme&quot;:&quot;dark-bottom&quot;};
+	&lt;/script&gt;
+	
+	&lt;script type=&quot;text/javascript&quot; src=&quot;//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js&quot; async=&quot;async&quot;&gt;&lt;/script&gt;
+	&lt;!-- End Cookie Consent plugin --&gt;
+	
+	&lt;!-- SumoMe List plugin, used until MailChimp email verifies. --&gt;
+	&lt;script src=&quot;//load.sumome.com/&quot; data-sumo-site-id=&quot;3dbb71c19487ba136d100a2bb2a6bc66594e2b9234d7850e1ec5af6ccb9efe5a&quot; async=&quot;async&quot;&gt; &lt;/script&gt;
+
+&lt;/head&gt;
+&lt;body class=&quot;This is a Goodbye Blog Post&quot;&gt;
+
+&lt;!-- Markup --&gt;
+&lt;div class=&quot;header pure-u-1&quot;&gt;
+	&lt;div id=&quot;main-menu&quot; class=&quot;pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal&quot;&gt;
+		&lt;a class=&quot;pure-menu-heading logo-link&quot; href=&quot;/&quot;&gt;&lt;svg id=&quot;Layer_1&quot; class=&quot;mdm-blue-circle-logo&quot; data-name=&quot;Layer 1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 132.61 132.61&quot;&gt;&lt;defs&gt;&lt;style&gt;.cls-1,.cls-2{fill:#005eac;}.cls-2,.cls-4{fill-rule:evenodd;}.cls-3{fill:#f7fafd;}.cls-4{fill:#fff;}&lt;/style&gt;&lt;/defs&gt;&lt;title&gt;icon_mdm-brazil&lt;/title&gt;&lt;ellipse class=&quot;cls-1&quot; cx=&quot;66.31&quot; cy=&quot;66.87&quot; rx=&quot;53.54&quot; ry=&quot;53.56&quot;/&gt;&lt;path id=&quot;outer_circle&quot; data-name=&quot;outer circle&quot; class=&quot;cls-2&quot; d=&quot;M68.3,1.9A66.31,66.31,0,1,1,2,68.21,66.31,66.31,0,0,1,68.3,1.9h0Zm0,4.34a62,62,0,1,1-62,62,62,62,0,0,1,62-62h0Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;83.56 86.68 84.08 85.02 85.78 85.02 84.41 84 84.93 82.34 83.56 83.37 82.18 82.34 82.71 84 81.33 85.02 83.03 85.02 83.56 86.68&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;104.73 50.88 105.26 49.22 106.95 49.22 105.58 48.2 106.11 46.54 104.73 47.57 103.35 46.54 103.88 48.2 102.5 49.22 104.2 49.22 104.73 50.88&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;67.66 45.9 68.18 44.24 69.88 44.24 68.51 43.22 69.03 41.56 67.66 42.59 66.28 41.56 66.81 43.22 65.43 44.24 67.13 44.24 67.66 45.9&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;95.56 35.2 96 33.8 97.44 33.8 96.28 32.94 96.72 31.54 95.56 32.41 94.4 31.54 94.84 32.94 93.68 33.8 95.12 33.8 95.56 35.2&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;103.19 42.57 103.64 41.17 105.07 41.17 103.91 40.31 104.36 38.91 103.19 39.78 102.04 38.91 102.48 40.31 101.32 41.17 102.75 41.17 103.19 42.57&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;105.62 45.61 106.06 44.22 107.49 44.22 106.33 43.35 106.78 41.96 105.62 42.82 104.46 41.96 104.9 43.35 103.74 44.22 105.18 44.22 105.62 45.61&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;80.66 71.32 81.03 70.16 82.22 70.16 81.25 69.44 81.62 68.28 80.66 68.99 79.69 68.28 80.06 69.44 79.1 70.16 80.29 70.16 80.66 71.32&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;47.58 67.75 48 66.39 49.38 66.39 48.26 65.55 48.69 64.19 47.58 65.03 46.46 64.19 46.89 65.55 45.77 66.39 47.15 66.39 47.58 67.75&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;27.83 57.79 28.37 56.06 30.1 56.06 28.7 54.99 29.24 53.26 27.83 54.33 26.43 53.26 26.97 54.99 25.56 56.06 27.3 56.06 27.83 57.79&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;22.74 80.1 23.27 78.37 25.01 78.37 23.6 77.3 24.14 75.57 22.74 76.64 21.33 75.57 21.87 77.3 20.46 78.37 22.2 78.37 22.74 80.1&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;46.56 41.26 47.08 39.6 48.77 39.6 47.41 38.58 47.93 36.92 46.56 37.95 45.2 36.92 45.72 38.58 44.35 39.6 46.04 39.6 46.56 41.26&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;73.3 56.08 73.72 54.72 75.1 54.72 73.98 53.88 74.41 52.52 73.3 53.36 72.18 52.52 72.61 53.88 71.49 54.72 72.87 54.72 73.3 56.08&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;84.28 32.42 84.65 31.26 85.85 31.26 84.88 30.54 85.25 29.38 84.28 30.09 83.32 29.38 83.69 30.54 82.72 31.26 83.91 31.26 84.28 32.42&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;87.54 39.8 87.91 38.64 89.1 38.64 88.14 37.92 88.51 36.76 87.54 37.47 86.58 36.76 86.94 37.92 85.98 38.64 87.17 38.64 87.54 39.8&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;62.11 56.29 62.48 55.13 63.67 55.13 62.7 54.41 63.08 53.25 62.11 53.97 61.14 53.25 61.51 54.41 60.55 55.13 61.74 55.13 62.11 56.29&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;95.54 39.8 95.91 38.64 97.1 38.64 96.14 37.92 96.51 36.76 95.54 37.47 94.58 36.76 94.94 37.92 93.98 38.64 95.17 38.64 95.54 39.8&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;95.55 30.69 95.87 29.68 96.9 29.68 96.06 29.05 96.39 28.04 95.55 28.67 94.7 28.04 95.03 29.05 94.19 29.68 95.22 29.68 95.55 30.69&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;38.66 52.64 39.08 51.3 40.42 51.3 39.33 50.47 39.75 49.13 38.66 49.95 37.57 49.13 37.99 50.47 36.9 51.3 38.24 51.3 38.66 52.64&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;21.06 52.64 21.47 51.3 22.82 51.3 21.73 50.47 22.14 49.13 21.06 49.95 19.97 49.13 20.39 50.47 19.3 51.3 20.64 51.3 21.06 52.64&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;65.9 51.99 66.22 50.98 67.26 50.98 66.42 50.35 66.74 49.34 65.9 49.97 65.06 49.34 65.38 50.35 64.54 50.98 65.58 50.98 65.9 51.99&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;37.23 45.58 37.55 44.57 38.59 44.57 37.75 43.95 38.07 42.94 37.23 43.56 36.39 42.94 36.71 43.95 35.87 44.57 36.91 44.57 37.23 45.58&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;111.87 49.85 112.19 48.84 113.23 48.84 112.39 48.21 112.71 47.2 111.87 47.83 111.03 47.2 111.35 48.21 110.51 48.84 111.55 48.84 111.87 49.85&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;99.54 39.8 99.91 38.64 101.1 38.64 100.14 37.92 100.51 36.76 99.54 37.47 98.58 36.76 98.94 37.92 97.98 38.64 99.17 38.64 99.54 39.8&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;79.75 40.12 80.12 38.96 81.31 38.96 80.34 38.24 80.72 37.08 79.75 37.79 78.78 37.08 79.15 38.24 78.19 38.96 79.38 38.96 79.75 40.12&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;67.37 28.47 67.55 27.92 68.1 27.92 67.65 27.58 67.82 27.02 67.37 27.36 66.92 27.02 67.09 27.58 66.64 27.92 67.2 27.92 67.37 28.47&quot;/&gt;&lt;path id=&quot;bottom_white_half_circle&quot; data-name=&quot;bottom white half circle&quot; class=&quot;cls-4&quot; d=&quot;M114.79,105.08q-1.81,2.28-3.84,4.38H55.47v4h51.24a59.33,59.33,0,0,1-84.89-8.36h93Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;path id=&quot;white_middle_strioe&quot; data-name=&quot;white middle strioe&quot; class=&quot;cls-4&quot; d=&quot;M127.4,62.82q0.24,2.66.24,5.39a59,59,0,0,1-10,32.9H18.92A59.06,59.06,0,0,1,9,68.21q0-2.73.25-5.39H127.4ZM93.73,71.29h9.76l3.76,14.6L111,71.29h9.72v24h-6.05V77L110,95.28h-5.48L99.8,77v18.3H93.73V93.88a7.06,7.06,0,0,1-1.81.76,17.08,17.08,0,0,1-4.42.65H76.44V77l-4.7,18.3H66.26L61.58,77v18.3H55.5v-24h9.75L69,85.88l3.75-14.6H87.5a13.22,13.22,0,0,1,5.26.89,9.28,9.28,0,0,1,1,.49V71.29h0ZM83.9,76.73v13.1h1.81A7.66,7.66,0,0,0,89,89.33a3.53,3.53,0,0,0,1.54-1.8,11.33,11.33,0,0,0,.56-4.17c0-2.54-.41-4.28-1.24-5.22a5.28,5.28,0,0,0-4.13-1.41H83.9Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;polygon id=&quot;MDM_bg&quot; data-name=&quot;MDM bg&quot; class=&quot;cls-4&quot; points=&quot;119.85 68.72 118.56 94.02 43.09 94.69 43.56 68.72 119.85 68.72&quot;/&gt;&lt;g id=&quot;MDM&quot;&gt;&lt;path class=&quot;cls-1&quot; d=&quot;M39,74.37h9l3.49,12.8L55,74.37h9v21H58.39v-16l-4.34,16H49l-4.33-16v16H39v-21Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;path class=&quot;cls-1&quot; d=&quot;M66.84,74.37H77.06a12.88,12.88,0,0,1,4.88.77A7.9,7.9,0,0,1,85,77.37a9,9,0,0,1,1.76,3.37,14.84,14.84,0,0,1,.55,4.07A13.45,13.45,0,0,1,86.5,90a8.65,8.65,0,0,1-2.25,3.11,7.47,7.47,0,0,1-3.09,1.67,16.79,16.79,0,0,1-4.1.57H66.84v-21Zm6.87,4.76V90.63H75.4a7.44,7.44,0,0,0,3.06-.45,3.12,3.12,0,0,0,1.43-1.58,9.41,9.41,0,0,0,.52-3.65q0-3.34-1.15-4.58a5,5,0,0,0-3.82-1.23H73.72Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;path class=&quot;cls-1&quot; d=&quot;M89.2,74.37h9l3.49,12.8,3.46-12.8h9v21h-5.63v-16l-4.34,16H99.15l-4.33-16v16H89.2v-21Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;
+
+		&lt;ul class=&quot;nav-header&quot;&gt;
+			&lt;li&gt;&lt;a href=&quot;/tech.html&quot;&gt;Tech&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;/design.html&quot;&gt;Design&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;/pricing.html&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt;
+
+		&lt;/ul&gt;
+		&lt;span&gt;
+			&lt;a class=&quot;contact-btn pure-button&quot; href=&quot;/contact.html&quot;&gt;Contact MDM&lt;/a&gt;
+		&lt;/span&gt;
+		&lt;span class=&quot;we-bitcoin&quot;&gt;
+			&lt;span class=&quot;accept-li&quot;&gt;
+				&lt;sub class=&quot;accept-b&quot;&gt;We accept bitcoin.&lt;/sub&gt;
+			&lt;/span&gt;
+			&lt;span class=&quot;bitcoin&quot;&gt;
+				&lt;!-- bitcoinsvg START --&gt;
+&lt;svg id=&quot;bIcon&quot; class=&quot;bitcoin-icon&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot; viewBox=&quot;0 0 512 512&quot; enable-background=&quot;new 0 0 512 512&quot; xml:space=&quot;preserve&quot;&gt;
+	&lt;path id=&quot;bitcoin-3-icon&quot; d=&quot;M303.676,288.54c0.009,21.928-35.308,21.322-56.823,21.322v-42.83
+	C269.305,266.588,303.678,265.976,303.676,288.54z M293.368,219.691c-0.004-19.853-26.271-19.264-46.516-19.264v38.496
+	C266.388,238.924,293.362,238.786,293.368,219.691z M462,256c0,113.771-92.229,206-206,206c-113.771,0-206-92.229-206-206
+	c0-113.771,92.229-206,206-206C369.771,50,462,142.229,462,256z M325.791,246.124c21.38-15.314,30.066-69.421-39.068-76.551
+	l-0.001-33.691h-28l0.002,32.704h-11.871v-32.704h-27.979l-0.01,32.704h-44.683l0.007,30.29l20.762-0.012
+	c6.792,0.002,8.082,3.2,8.082,7.379v95.678c0,5.319-2.575,7.923-8.325,7.923h-15.673l-5.368,32.43h45.204l0.009,33.845h27.975
+	v-33.845h11.871l-0.01,33.845h28.001v-33.954C371.416,336.352,366.889,260.333,325.791,246.124z&quot;/&gt;
+&lt;/svg&gt;
+			&lt;/span&gt;
+		&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;content pure-g-r&quot;&gt;
+
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;This is a Goodbye Blog Post&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+
+&lt;/div&gt;
+
+&lt;footer class=&quot;pure-u-1&quot;&gt; 
+	&lt;p&gt;
+		&lt;a href=&quot;/privacy.html&quot;&gt;Privacy&lt;/a&gt;
+		&lt;span class=&quot;footer-icons&quot;&gt;
+			&lt;a title=&quot;Contact MDM&quot; href=&quot;/contact.html&quot;&gt;&lt;svg class=&quot;email-11-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M12 2.02c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 12.55l-5.992-4.57h11.983l-5.991 4.57zm0 1.288l-6-4.629v6.771h12v-6.771l-6 4.629z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;
+			&lt;a title=&quot;MDM GitHub&quot; href=&quot;https://github.com/MassDistributionMedia&quot;&gt;&lt;svg class=&quot;github-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;
+			&lt;a title=&quot;MDM Facebook&quot; href=&quot;https://www.facebook.com/MassDistributionMedia/?fref=ts&quot;&gt;&lt;svg class=&quot;facebook-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;
+		&lt;/span&gt;
+		&amp;copy;2017 Mass Distribution Media Inc.
+		&lt;br/&gt;
+		&lt;span class=&quot;muted&quot;&gt; Last updated 2017-03-26T04:44:08.598Z&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/footer&gt;
+
+&lt;!-- Scripts --&gt;
+&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+	
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>This is a Hello Blog Post</title>
+			<link href="https://mdm.cc//posts/hello.html"/>
+			<updated>2016-02-17T03:55:41.000Z</updated>
+			<id>https://mdm.cc//posts/hello.html</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Chrome, Firefox OS and Opera --&gt;
+	&lt;meta name=&quot;theme-color&quot; content=&quot;#005EAC&quot;&gt;
+	&lt;!-- Windows Phone --&gt;
+	&lt;meta name=&quot;msapplication-navbutton-color&quot; content=&quot;#005EAC&quot;&gt;
+	&lt;!-- iOS Safari --&gt;
+	&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;#005EAC&quot;&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Hello Blog Post | Mass Distribution Media, Inc. &lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;New Age Web Platforms for Selected Clients. &quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;MDM, Mass Distribution Media, docpad, custom websites for clients, East Coast&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Mass Distribution Media, Inc.&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.78.4&quot; /&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;//fonts.googleapis.com/css?family=Open+Sans&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;//fonts.googleapis.com/icon?family=Material+Icons&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
+	
+	&lt;!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent --&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+	    window.cookieconsent_options = {&quot;message&quot;:&quot;This website uses cookies to ensure you get the best experience on our website&quot;,&quot;dismiss&quot;:&quot;Got it!&quot;,&quot;learnMore&quot;:&quot;More info&quot;,&quot;link&quot;:&quot;https://mdm.cc/privacy.html&quot;,&quot;theme&quot;:&quot;dark-bottom&quot;};
+	&lt;/script&gt;
+	
+	&lt;script type=&quot;text/javascript&quot; src=&quot;//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js&quot; async=&quot;async&quot;&gt;&lt;/script&gt;
+	&lt;!-- End Cookie Consent plugin --&gt;
+	
+	&lt;!-- SumoMe List plugin, used until MailChimp email verifies. --&gt;
+	&lt;script src=&quot;//load.sumome.com/&quot; data-sumo-site-id=&quot;3dbb71c19487ba136d100a2bb2a6bc66594e2b9234d7850e1ec5af6ccb9efe5a&quot; async=&quot;async&quot;&gt; &lt;/script&gt;
+
+&lt;/head&gt;
+&lt;body class=&quot;This is a Hello Blog Post&quot;&gt;
+
+&lt;!-- Markup --&gt;
+&lt;div class=&quot;header pure-u-1&quot;&gt;
+	&lt;div id=&quot;main-menu&quot; class=&quot;pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal&quot;&gt;
+		&lt;a class=&quot;pure-menu-heading logo-link&quot; href=&quot;/&quot;&gt;&lt;svg id=&quot;Layer_1&quot; class=&quot;mdm-blue-circle-logo&quot; data-name=&quot;Layer 1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 132.61 132.61&quot;&gt;&lt;defs&gt;&lt;style&gt;.cls-1,.cls-2{fill:#005eac;}.cls-2,.cls-4{fill-rule:evenodd;}.cls-3{fill:#f7fafd;}.cls-4{fill:#fff;}&lt;/style&gt;&lt;/defs&gt;&lt;title&gt;icon_mdm-brazil&lt;/title&gt;&lt;ellipse class=&quot;cls-1&quot; cx=&quot;66.31&quot; cy=&quot;66.87&quot; rx=&quot;53.54&quot; ry=&quot;53.56&quot;/&gt;&lt;path id=&quot;outer_circle&quot; data-name=&quot;outer circle&quot; class=&quot;cls-2&quot; d=&quot;M68.3,1.9A66.31,66.31,0,1,1,2,68.21,66.31,66.31,0,0,1,68.3,1.9h0Zm0,4.34a62,62,0,1,1-62,62,62,62,0,0,1,62-62h0Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;83.56 86.68 84.08 85.02 85.78 85.02 84.41 84 84.93 82.34 83.56 83.37 82.18 82.34 82.71 84 81.33 85.02 83.03 85.02 83.56 86.68&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;104.73 50.88 105.26 49.22 106.95 49.22 105.58 48.2 106.11 46.54 104.73 47.57 103.35 46.54 103.88 48.2 102.5 49.22 104.2 49.22 104.73 50.88&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;67.66 45.9 68.18 44.24 69.88 44.24 68.51 43.22 69.03 41.56 67.66 42.59 66.28 41.56 66.81 43.22 65.43 44.24 67.13 44.24 67.66 45.9&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;95.56 35.2 96 33.8 97.44 33.8 96.28 32.94 96.72 31.54 95.56 32.41 94.4 31.54 94.84 32.94 93.68 33.8 95.12 33.8 95.56 35.2&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;103.19 42.57 103.64 41.17 105.07 41.17 103.91 40.31 104.36 38.91 103.19 39.78 102.04 38.91 102.48 40.31 101.32 41.17 102.75 41.17 103.19 42.57&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;105.62 45.61 106.06 44.22 107.49 44.22 106.33 43.35 106.78 41.96 105.62 42.82 104.46 41.96 104.9 43.35 103.74 44.22 105.18 44.22 105.62 45.61&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;80.66 71.32 81.03 70.16 82.22 70.16 81.25 69.44 81.62 68.28 80.66 68.99 79.69 68.28 80.06 69.44 79.1 70.16 80.29 70.16 80.66 71.32&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;47.58 67.75 48 66.39 49.38 66.39 48.26 65.55 48.69 64.19 47.58 65.03 46.46 64.19 46.89 65.55 45.77 66.39 47.15 66.39 47.58 67.75&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;27.83 57.79 28.37 56.06 30.1 56.06 28.7 54.99 29.24 53.26 27.83 54.33 26.43 53.26 26.97 54.99 25.56 56.06 27.3 56.06 27.83 57.79&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;22.74 80.1 23.27 78.37 25.01 78.37 23.6 77.3 24.14 75.57 22.74 76.64 21.33 75.57 21.87 77.3 20.46 78.37 22.2 78.37 22.74 80.1&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;46.56 41.26 47.08 39.6 48.77 39.6 47.41 38.58 47.93 36.92 46.56 37.95 45.2 36.92 45.72 38.58 44.35 39.6 46.04 39.6 46.56 41.26&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;73.3 56.08 73.72 54.72 75.1 54.72 73.98 53.88 74.41 52.52 73.3 53.36 72.18 52.52 72.61 53.88 71.49 54.72 72.87 54.72 73.3 56.08&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;84.28 32.42 84.65 31.26 85.85 31.26 84.88 30.54 85.25 29.38 84.28 30.09 83.32 29.38 83.69 30.54 82.72 31.26 83.91 31.26 84.28 32.42&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;87.54 39.8 87.91 38.64 89.1 38.64 88.14 37.92 88.51 36.76 87.54 37.47 86.58 36.76 86.94 37.92 85.98 38.64 87.17 38.64 87.54 39.8&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;62.11 56.29 62.48 55.13 63.67 55.13 62.7 54.41 63.08 53.25 62.11 53.97 61.14 53.25 61.51 54.41 60.55 55.13 61.74 55.13 62.11 56.29&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;95.54 39.8 95.91 38.64 97.1 38.64 96.14 37.92 96.51 36.76 95.54 37.47 94.58 36.76 94.94 37.92 93.98 38.64 95.17 38.64 95.54 39.8&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;95.55 30.69 95.87 29.68 96.9 29.68 96.06 29.05 96.39 28.04 95.55 28.67 94.7 28.04 95.03 29.05 94.19 29.68 95.22 29.68 95.55 30.69&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;38.66 52.64 39.08 51.3 40.42 51.3 39.33 50.47 39.75 49.13 38.66 49.95 37.57 49.13 37.99 50.47 36.9 51.3 38.24 51.3 38.66 52.64&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;21.06 52.64 21.47 51.3 22.82 51.3 21.73 50.47 22.14 49.13 21.06 49.95 19.97 49.13 20.39 50.47 19.3 51.3 20.64 51.3 21.06 52.64&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;65.9 51.99 66.22 50.98 67.26 50.98 66.42 50.35 66.74 49.34 65.9 49.97 65.06 49.34 65.38 50.35 64.54 50.98 65.58 50.98 65.9 51.99&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;37.23 45.58 37.55 44.57 38.59 44.57 37.75 43.95 38.07 42.94 37.23 43.56 36.39 42.94 36.71 43.95 35.87 44.57 36.91 44.57 37.23 45.58&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;111.87 49.85 112.19 48.84 113.23 48.84 112.39 48.21 112.71 47.2 111.87 47.83 111.03 47.2 111.35 48.21 110.51 48.84 111.55 48.84 111.87 49.85&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;99.54 39.8 99.91 38.64 101.1 38.64 100.14 37.92 100.51 36.76 99.54 37.47 98.58 36.76 98.94 37.92 97.98 38.64 99.17 38.64 99.54 39.8&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;79.75 40.12 80.12 38.96 81.31 38.96 80.34 38.24 80.72 37.08 79.75 37.79 78.78 37.08 79.15 38.24 78.19 38.96 79.38 38.96 79.75 40.12&quot;/&gt;&lt;polygon class=&quot;cls-3&quot; points=&quot;67.37 28.47 67.55 27.92 68.1 27.92 67.65 27.58 67.82 27.02 67.37 27.36 66.92 27.02 67.09 27.58 66.64 27.92 67.2 27.92 67.37 28.47&quot;/&gt;&lt;path id=&quot;bottom_white_half_circle&quot; data-name=&quot;bottom white half circle&quot; class=&quot;cls-4&quot; d=&quot;M114.79,105.08q-1.81,2.28-3.84,4.38H55.47v4h51.24a59.33,59.33,0,0,1-84.89-8.36h93Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;path id=&quot;white_middle_strioe&quot; data-name=&quot;white middle strioe&quot; class=&quot;cls-4&quot; d=&quot;M127.4,62.82q0.24,2.66.24,5.39a59,59,0,0,1-10,32.9H18.92A59.06,59.06,0,0,1,9,68.21q0-2.73.25-5.39H127.4ZM93.73,71.29h9.76l3.76,14.6L111,71.29h9.72v24h-6.05V77L110,95.28h-5.48L99.8,77v18.3H93.73V93.88a7.06,7.06,0,0,1-1.81.76,17.08,17.08,0,0,1-4.42.65H76.44V77l-4.7,18.3H66.26L61.58,77v18.3H55.5v-24h9.75L69,85.88l3.75-14.6H87.5a13.22,13.22,0,0,1,5.26.89,9.28,9.28,0,0,1,1,.49V71.29h0ZM83.9,76.73v13.1h1.81A7.66,7.66,0,0,0,89,89.33a3.53,3.53,0,0,0,1.54-1.8,11.33,11.33,0,0,0,.56-4.17c0-2.54-.41-4.28-1.24-5.22a5.28,5.28,0,0,0-4.13-1.41H83.9Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;polygon id=&quot;MDM_bg&quot; data-name=&quot;MDM bg&quot; class=&quot;cls-4&quot; points=&quot;119.85 68.72 118.56 94.02 43.09 94.69 43.56 68.72 119.85 68.72&quot;/&gt;&lt;g id=&quot;MDM&quot;&gt;&lt;path class=&quot;cls-1&quot; d=&quot;M39,74.37h9l3.49,12.8L55,74.37h9v21H58.39v-16l-4.34,16H49l-4.33-16v16H39v-21Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;path class=&quot;cls-1&quot; d=&quot;M66.84,74.37H77.06a12.88,12.88,0,0,1,4.88.77A7.9,7.9,0,0,1,85,77.37a9,9,0,0,1,1.76,3.37,14.84,14.84,0,0,1,.55,4.07A13.45,13.45,0,0,1,86.5,90a8.65,8.65,0,0,1-2.25,3.11,7.47,7.47,0,0,1-3.09,1.67,16.79,16.79,0,0,1-4.1.57H66.84v-21Zm6.87,4.76V90.63H75.4a7.44,7.44,0,0,0,3.06-.45,3.12,3.12,0,0,0,1.43-1.58,9.41,9.41,0,0,0,.52-3.65q0-3.34-1.15-4.58a5,5,0,0,0-3.82-1.23H73.72Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;path class=&quot;cls-1&quot; d=&quot;M89.2,74.37h9l3.49,12.8,3.46-12.8h9v21h-5.63v-16l-4.34,16H99.15l-4.33-16v16H89.2v-21Z&quot; transform=&quot;translate(-2 -1.9)&quot;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;
+
+		&lt;ul class=&quot;nav-header&quot;&gt;
+			&lt;li&gt;&lt;a href=&quot;/tech.html&quot;&gt;Tech&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;/design.html&quot;&gt;Design&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;/pricing.html&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt;
+
+		&lt;/ul&gt;
+		&lt;span&gt;
+			&lt;a class=&quot;contact-btn pure-button&quot; href=&quot;/contact.html&quot;&gt;Contact MDM&lt;/a&gt;
+		&lt;/span&gt;
+		&lt;span class=&quot;we-bitcoin&quot;&gt;
+			&lt;span class=&quot;accept-li&quot;&gt;
+				&lt;sub class=&quot;accept-b&quot;&gt;We accept bitcoin.&lt;/sub&gt;
+			&lt;/span&gt;
+			&lt;span class=&quot;bitcoin&quot;&gt;
+				&lt;!-- bitcoinsvg START --&gt;
+&lt;svg id=&quot;bIcon&quot; class=&quot;bitcoin-icon&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot; viewBox=&quot;0 0 512 512&quot; enable-background=&quot;new 0 0 512 512&quot; xml:space=&quot;preserve&quot;&gt;
+	&lt;path id=&quot;bitcoin-3-icon&quot; d=&quot;M303.676,288.54c0.009,21.928-35.308,21.322-56.823,21.322v-42.83
+	C269.305,266.588,303.678,265.976,303.676,288.54z M293.368,219.691c-0.004-19.853-26.271-19.264-46.516-19.264v38.496
+	C266.388,238.924,293.362,238.786,293.368,219.691z M462,256c0,113.771-92.229,206-206,206c-113.771,0-206-92.229-206-206
+	c0-113.771,92.229-206,206-206C369.771,50,462,142.229,462,256z M325.791,246.124c21.38-15.314,30.066-69.421-39.068-76.551
+	l-0.001-33.691h-28l0.002,32.704h-11.871v-32.704h-27.979l-0.01,32.704h-44.683l0.007,30.29l20.762-0.012
+	c6.792,0.002,8.082,3.2,8.082,7.379v95.678c0,5.319-2.575,7.923-8.325,7.923h-15.673l-5.368,32.43h45.204l0.009,33.845h27.975
+	v-33.845h11.871l-0.01,33.845h28.001v-33.954C371.416,336.352,366.889,260.333,325.791,246.124z&quot;/&gt;
+&lt;/svg&gt;
+			&lt;/span&gt;
+		&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;content pure-g-r&quot;&gt;
+
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;This is a Hello Blog Post&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a hello &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+
+&lt;/div&gt;
+
+&lt;footer class=&quot;pure-u-1&quot;&gt; 
+	&lt;p&gt;
+		&lt;a href=&quot;/privacy.html&quot;&gt;Privacy&lt;/a&gt;
+		&lt;span class=&quot;footer-icons&quot;&gt;
+			&lt;a title=&quot;Contact MDM&quot; href=&quot;/contact.html&quot;&gt;&lt;svg class=&quot;email-11-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M12 2.02c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 12.55l-5.992-4.57h11.983l-5.991 4.57zm0 1.288l-6-4.629v6.771h12v-6.771l-6 4.629z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;
+			&lt;a title=&quot;MDM GitHub&quot; href=&quot;https://github.com/MassDistributionMedia&quot;&gt;&lt;svg class=&quot;github-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;
+			&lt;a title=&quot;MDM Facebook&quot; href=&quot;https://www.facebook.com/MassDistributionMedia/?fref=ts&quot;&gt;&lt;svg class=&quot;facebook-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;
+		&lt;/span&gt;
+		&amp;copy;2017 Mass Distribution Media Inc.
+		&lt;br/&gt;
+		&lt;span class=&quot;muted&quot;&gt; Last updated 2017-03-26T04:44:08.598Z&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/footer&gt;
+
+&lt;!-- Scripts --&gt;
+&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+	
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>
